@@ -36,8 +36,6 @@
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
 	</head>
 
 	<body <?php body_class(); ?>>
