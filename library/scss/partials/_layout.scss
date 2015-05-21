@@ -67,7 +67,7 @@ Stylesheet: Layout Stylesheet
 .tab {
        @include grid(12);
         @include break(tablet, 4);
-        @include break(mobile, 4);
+        @include break(mobile, 12);
 }
 
   .footer {}
