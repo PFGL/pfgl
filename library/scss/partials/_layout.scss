@@ -35,9 +35,11 @@ Stylesheet: Layout Stylesheet
         @include break(mobile, 12);
       }
 
-        .advice {
+        .advice,
+        .local {
             @include grid(6);
         }
+
   .nav {
     @include grid(12);
   }

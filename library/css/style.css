@@ -1370,6 +1370,23 @@ HEADER STYLES
   border-bottom: 1px solid #575757;
   cursor: pointer; }
 
+.local {
+  display: inline-block;
+  font-size: .75em;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #464646;
+  text-align: left;
+  background: #797979;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 1px #999;
+  -webkit-box-shadow: 0 1px 1px #999;
+  border-bottom: 1px solid #575757;
+  padding: 3px 10px;
+  cursor: pointer;
+  padding: 5px 10px 7px 10px; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
