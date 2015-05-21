@@ -1215,6 +1215,11 @@ select {
  *
  * March 2010
  */
+.slider-container {
+  position: relative;
+  width: 720px;
+  height: 300px; }
+
 /* The Nivo Slider styles */
 .nivoSlider {
   position: relative; }

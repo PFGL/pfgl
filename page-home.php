@@ -17,7 +17,7 @@
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                        <div id="slider-container">
+                        <div class="slider-container">
 
                             <div id="slider" class="nivoSlider">
                                 <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-1.jpg" alt="Perspective Financial Group Limited is a leading national IFA consolidator" width="720" height="300" />
