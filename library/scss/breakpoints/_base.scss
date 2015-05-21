@@ -162,7 +162,7 @@ HEADER STYLES
     display: inline-block;
 
     font-size: .75em;
-    color: #fff;
+    color: $white;
     text-align: left;
     text-decoration: none;
     text-shadow: 0 -1px 1px #830d2d;
@@ -183,7 +183,7 @@ HEADER STYLES
     display: inline-block;
 
     font-size: .75em;
-    color: #fff;
+    color: $white;
     text-decoration: none;
     text-shadow: 0 -1px 1px #464646;
     text-align: left;
@@ -199,6 +199,11 @@ HEADER STYLES
     padding: 3px 10px;
     cursor: pointer;
     padding: 5px 10px 7px 10px;
+}
+
+.local:visited,
+.advice:visited {
+    color: darken ($white, 9%);
 }
 
 /*********************

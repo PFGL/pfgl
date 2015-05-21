@@ -1363,7 +1363,7 @@ HEADER STYLES
   text-shadow: 0 -1px 1px #830d2d;
   background-color: #d01448;
   padding: 5px 10px 7px 10px;
-  border-radus: 5px;
+  border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-box-shadow: 0 1px 1px #999;
@@ -1379,6 +1379,7 @@ HEADER STYLES
   text-shadow: 0 -1px 1px #464646;
   text-align: left;
   background: #797979;
+  border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-box-shadow: 0 1px 1px #999;
@@ -1387,6 +1388,10 @@ HEADER STYLES
   padding: 3px 10px;
   cursor: pointer;
   padding: 5px 10px 7px 10px; }
+
+.local:visited,
+.advice:visited {
+  color: darken #fff, 9%; }
 
 /*********************
 NAVIGATION STYLES
