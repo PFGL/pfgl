@@ -93,33 +93,10 @@ var timeToWaitForLast = 100;
 */
 
 /*
- * We're going to swap out the gravatars.
- * In the functions.php file, you can see we're not loading the gravatar
- * images on mobile to save bandwidth. Once we hit an acceptable viewport
- * then we can swap out those images since they are located in a data attribute.
-*/
-function loadGravatars() {
-    "use strict";
-  // set the viewport using the function above
-    viewport = updateViewportDimensions();
-  // if the viewport is tablet or larger, we load in the gravatars
-    if (viewport.width >= 768) {
-        jQuery('.comment img[data-gravatar]').each(function () {
-            jQuery(this).attr('src', jQuery(this).attr('data-gravatar'));
-        });
-	}
-} // end function
-
-/*
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function ($) {
     "use strict";
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
-    loadGravatars();
 
     viewport = updateViewportDimensions();
     // if the viewport is tablet or smaller, we slide sub menus on tap
@@ -148,6 +125,13 @@ jQuery(document).ready(function ($) {
             }
         );
     }
+
+    var visited = $.cookie("pfglcookie");
+    if (visited === null) {
+        $('.cookie_layer').show();
+        $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
+    }
+    $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
 
 
 }); /* end of as page load scripts */
