@@ -716,7 +716,8 @@ Stylesheet: Layout Stylesheet
       width: 98%;
       margin: 1%; } }
 
-.advice {
+.advice,
+.local {
   float: left;
   width: 48%;
   margin-left: 1%;
