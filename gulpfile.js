@@ -1,8 +1,6 @@
 /*global require*/
 
 var gulp = require('gulp');
-var gulpLoadPlugins = require('gulp-load-plugins');
-var plugins = gulpLoadPlugins();
 
 // Include Our Plugins
 var jshint = require('gulp-jshint');

@@ -88,9 +88,6 @@ probably best not to use it. I mean, were you going to anyway? */
 /*********************
 BOX  SHADOW
 *********************/
-/*********************
-MAZE
-*********************/
 /******************************************************************
 Site Name:
 Author:
@@ -227,7 +224,8 @@ NAVIGATION STYLES
       .nav li a:hover, .nav li a:focus {
         color: #fff;
         text-decoration: underline; }
-    .nav li ul.sub-menu, .nav li ul.children {
+    .nav li ul.sub-menu,
+    .nav li ul.children {
       margin-top: 0;
       border: 1px solid #ccc;
       border-top: 0;
@@ -235,21 +233,25 @@ NAVIGATION STYLES
       display: none;
       z-index: 8999;
       /* highlight sub-menu current page */ }
-      .nav li ul.sub-menu li, .nav li ul.children li {
+      .nav li ul.sub-menu li,
+      .nav li ul.children li {
         /*
 				if you need to go deeper, go nuts
 				just remember deeper menus suck
 				for usability. k, bai.
 				*/ }
-        .nav li ul.sub-menu li a, .nav li ul.children li a {
+        .nav li ul.sub-menu li a,
+        .nav li ul.children li a {
           padding-left: 10px;
           border-right: 0;
           display: block;
           width: 180px;
           border-bottom: 1px solid #ccc; }
-        .nav li ul.sub-menu li:last-child a, .nav li ul.children li:last-child a {
+        .nav li ul.sub-menu li:last-child a,
+        .nav li ul.children li:last-child a {
           border-bottom: 0; }
-        .nav li ul.sub-menu li ul, .nav li ul.children li ul {
+        .nav li ul.sub-menu li ul,
+        .nav li ul.children li ul {
           top: 0;
           left: 100%; }
     .nav li:hover > ul {
