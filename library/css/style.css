@@ -1349,12 +1349,12 @@ HEADER STYLES
   background-color: #fff; }
 
 .logo-container {
-  margin-top: 1.5em; }
+  margin-top: 1.5em;
+  text-align: center; }
 
 .logo {
   max-width: 100%;
-  height: auto;
-  margin: 0 auto; }
+  height: auto; }
 
 .advice {
   display: inline-block;
