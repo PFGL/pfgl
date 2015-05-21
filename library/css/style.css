@@ -1237,13 +1237,13 @@ style a page via class
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #2980b9;
+  color: #d31145;
   text-decoration: none;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #216693;
+    color: #a90e37;
     text-decoration: underline; }
   a:link, a:visited:link {
     /*
