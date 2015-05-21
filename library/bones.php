@@ -150,6 +150,7 @@ function bones_scripts_and_styles() {
 		wp_register_script( 'guybrush-js', get_stylesheet_directory_uri() . '/library/js/min/scripts.min.js', array( 'jquery' ), '', true );
 
 		// enqueue styles and scripts
+      	wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'guybrush-modernizr' );
         wp_enqueue_script( 'pfgl-cookie');
 		wp_enqueue_style( 'guybrush-stylesheet' );
@@ -164,10 +165,6 @@ function bones_scripts_and_styles() {
 		*/
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'guybrush-js' );
-
-        if ( wp_is_mobile() ) {
-            wp_enqueue_script( 'guybrush-jQuery-finger' );
-        }
 
 	}
 }
