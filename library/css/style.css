@@ -1371,6 +1371,10 @@ HEADER STYLES
   border-bottom: 1px solid #575757;
   cursor: pointer; }
 
+.header-tel {
+  font-size: 1.25em;
+  text-align: center; }
+
 .local {
   display: inline-block;
   font-size: .75em;
