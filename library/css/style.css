@@ -1228,13 +1228,6 @@ style a page via class
 /* paged items like search results or archives */
 /* individual paged (i.e. body.paged-3) */
 /*********************
-LAYOUT & GRID STYLES
-*********************/
-.wrap {
-  width: 96%;
-  margin: 0 auto; }
-
-/*********************
 LINK STYLES
 *********************/
 a, a:visited {
@@ -1309,9 +1302,6 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-nav {
-  background-color: #323944; }
-
 .nav {
   margin: 0;
   /* end .menu li */
@@ -2001,7 +1991,17 @@ NAVIGATION STYLES
     /* highlight current page */
     /* end current highlighters */ }
     .nav ul {
-      background: #323944;
+      background-color: #d31145;
+      background: #d31145;
+      background: -moz-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0, #d31145), color-stop(50%, #e67393), color-stop(100%, #d31145));
+      background: -webkit-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+      background: -o-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+      background: -ms-linear-gradient(top, #d31145 0, #e67393 50%, #d31145 100%);
+      background: linear-gradient(to bottom, #d31145 0, #e67393 50%, #d31145 100%);
+      -webkit-box-shadow: 0 0 5px #3c3c40;
+      -moz-box-shadow: 0 0 5px #3c3c40;
+      box-shadow: 0 0 5px #3c3c40;
       margin-top: 0; }
     .nav li {
       float: left;
