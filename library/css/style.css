@@ -100,7 +100,7 @@ li + li {
 .nivoSlider img + img {
   margin-top: 0; }
 
-.nivo-slice + nivo-slice {
+.nivo-slice + .nivo-slice {
   margin-top: 0; }
 
 /* ==========================================================================
