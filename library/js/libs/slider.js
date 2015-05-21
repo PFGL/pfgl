@@ -109,7 +109,7 @@
         //Process initial  caption
         if(vars.currentImage.attr('title') != ''){
             var title = vars.currentImage.attr('title');
-            if(title.substr(0,1) == '#') title = $(title).html();
+            if(title.substr(0,1) == '#') title = jQuery(title).html();
             $('.nivo-caption p', slider).html(title);
             $('.nivo-caption', slider).fadeIn(settings.animSpeed);
         }
