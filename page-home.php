@@ -2,14 +2,6 @@
 /*
  Template Name: New Homepage
  *
- * This is your custom page template. You can create as many of these as you need.
- * Simply name is "page-whatever.php" and in add the "Template Name" title at the
- * top, the same way it is here.
- *
- * When you create your page, you can just select the template and viola, you have
- * a custom page template to call your very own. Your mother would be so proud.
- *
- * For more info: http://codex.wordpress.org/Page_Templates
 */
 ?>
 
@@ -28,15 +20,15 @@
                         <div id="slider-container-new">
 
                             <div id="slider" class="nivoSlider">
-                                <img src="<?php bloginfo('template_url');?>/images/slider/slide1-thin.jpg" alt="Perspective Financial Group Limited is a leading national IFA consolidator" width="720" height="300" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-1.jpg" alt="Perspective Financial Group Limited is a leading national IFA consolidator" width="720" height="300" />
 
-                                <img src="<?php bloginfo('template_url');?>/images/slider/slide-umbrella.png" alt="Perspective is one of the fastest growing financial services groups in the UK" width="720" height="300" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-2.png" alt="Perspective is one of the fastest growing financial services groups in the UK" width="720" height="300" />
 
-                                <img src="<?php bloginfo('template_url');?>/images/slider/slide3-thin.jpg" alt="Perspective is a national group of quality independent financial advisers" width="720" height="300" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-3.jpg" alt="Perspective is a national group of quality independent financial advisers" width="720" height="300" />
 
-                                <img src="<?php bloginfo('template_url');?>/images/slider/slide4-thin.jpg" alt="The Perspective proposition blends local autonomy with group support" width="720" height="300" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-4.jpg" alt="The Perspective proposition blends local autonomy with group support" width="720" height="300" />
 
-                                <img src="<?php bloginfo('template_url');?>/images/slider/slide5-thin.jpg" alt="Perspective offers an exit strategy to allow IFAs to maximise their capital value" width="720" height="300" />
+                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-5.jpg" alt="Perspective offers an exit strategy to allow IFAs to maximise their capital value" width="720" height="300" />
                             </div><!--slider-->
 
                         </div><!--slider-container-->
