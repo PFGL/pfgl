@@ -17,21 +17,7 @@
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                        <div class="slider-container">
-
-                            <div id="slider" class="nivoSlider">
-                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-1.jpg" alt="Perspective Financial Group Limited is a leading national IFA consolidator" width="720" height="300" />
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-2.png" alt="Perspective is one of the fastest growing financial services groups in the UK" width="720" height="300" />
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-3.jpg" alt="Perspective is a national group of quality independent financial advisers" width="720" height="300" />
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-4.jpg" alt="The Perspective proposition blends local autonomy with group support" width="720" height="300" />
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/library/images/slide-5.jpg" alt="Perspective offers an exit strategy to allow IFAs to maximise their capital value" width="720" height="300" />
-                            </div><!--slider-->
-
-                        </div><!--slider-container-->
+                        <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'homepage', 'slug' ); } ?>
 
                         <div class="entry-content cf" itemprop="articleBody">
                             <?php
