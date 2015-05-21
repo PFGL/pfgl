@@ -23,17 +23,21 @@ Stylesheet: Layout Stylesheet
 
     #inner-header {}
 
-      .logo-container {
-        @include grid(4);
-        @include break(tablet, 12);
-        @include break(mobile, 12);
-      }
+        .logo-container {
+            @include grid(4);
+            @include break(tablet, 12);
+            @include break(mobile, 12);
+        }
 
       #sidebar-header {
         @include grid(4, $push:4);
         @include break(tablet, 12);
         @include break(mobile, 12);
       }
+
+        .advice {
+            @include grid(6);
+        }
   .nav {
     @include grid(12);
   }

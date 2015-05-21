@@ -716,6 +716,12 @@ Stylesheet: Layout Stylesheet
       width: 98%;
       margin: 1%; } }
 
+.advice {
+  float: left;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
 .nav {
   float: left;
   width: 98%;
