@@ -134,14 +134,4 @@ jQuery(document).ready(function ($) {
     $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
 
 
-    	// Home Page Slider
-	$('#slider').nivoSlider({
-		effect: 'fade',
-		pauseTime: 7000,
-		directionNav: false,
-		controlNav: true,
-		pauseOnHover: false,
-		speed: 'slow'
-	});
-
 }); /* end of as page load scripts */
