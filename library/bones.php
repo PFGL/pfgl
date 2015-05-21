@@ -127,13 +127,13 @@ function bones_scripts_and_styles() {
   if (!is_admin()) {
 
 		// modernizr (without media query polyfill)
-		wp_register_script( 'buybrush-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
+		wp_register_script( 'guybrush-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
         // cookie
 		wp_register_script( 'pfgl-cookie', get_stylesheet_directory_uri() . '/library/js/libs/cookie.js', array(), '2.5.3', false );
 
-        // jQuery Finger
-		wp_register_script( 'guybrush-jQuery-finger', '//rawgit.com/ngryman/jquery.finger/v0.1.2/dist/jquery.finger.js');
+        // cookie
+		wp_register_script( 'pfgl-slider', get_stylesheet_directory_uri() . '/library/js/libs/slider.js', array(), '2.5.3', false );
 
 		// register main stylesheet
 		wp_register_style( 'guybrush-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.min.css', array(), '', 'all' );
@@ -153,6 +153,7 @@ function bones_scripts_and_styles() {
       	wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'guybrush-modernizr' );
         wp_enqueue_script( 'pfgl-cookie');
+        wp_enqueue_script( 'pfgl-slider');
         wp_enqueue_script( 'guybrush-js' );
 		wp_enqueue_style( 'guybrush-stylesheet' );
 		wp_enqueue_style( 'guybrush-ie-only' );
