@@ -66,15 +66,6 @@ style a page via class
 	.paged-1 {}                     /* individual paged (i.e. body.paged-3) */
 
 /*********************
-LAYOUT & GRID STYLES
-*********************/
-
-.wrap {
-	width: 96%;
-	margin: 0 auto;
-}
-
-/*********************
 LINK STYLES
 *********************/
 
@@ -175,10 +166,6 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-
-nav {
-  background-color: $nav-bg;
-}
 
 .nav {
     margin:0;
