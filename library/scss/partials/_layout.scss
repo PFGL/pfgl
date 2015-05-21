@@ -34,7 +34,9 @@ Stylesheet: Layout Stylesheet
         @include break(tablet, 12);
         @include break(mobile, 12);
       }
-  .nav {}
+  .nav {
+    @include grid(12);
+  }
 
   #content {}
 
