@@ -150,6 +150,7 @@ function bones_scripts_and_styles() {
 
 		wp_enqueue_style( 'guybrush-stylesheet' );
 		wp_enqueue_style( 'guybrush-ie-only' );
+
         wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'guybrush-modernizr' );
         wp_enqueue_script( 'pfgl-cookie');
