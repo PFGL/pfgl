@@ -1454,65 +1454,11 @@ and more scalable.
           color: #2980b9; }
 
 /* end .top-nav */
-.mobile-nav {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  margin: 0;
-  background-color: #323944;
-  /* end .menu li */
-  /* highlight current page */
-  /* end current highlighters */ }
-  .mobile-nav li {
-    width: 25%;
-    float: left;
-    /*
-		so you really have to rethink your dropdowns for mobile.
-		you don't want to have it expand too much because the
-		screen is so small. How you manage your menu should
-		depend on the project. Here's some great info on it:
-		http://www.alistapart.com/articles/organizing-mobile/
-		*/ }
-    .mobile-nav li a {
-      display: block;
-      color: #fff;
-      text-decoration: none;
-      padding: 0.75em;
-      text-align: center;
-      /*
-			remember this is for mobile ONLY, so there's no need
-			to even declare hover styles here, you can do it in
-			the style.scss file where it's relevant. We want to
-			keep this file as small as possible!
-			*/ }
-    .mobile-nav li ul.sub-menu,
-    .mobile-nav li ul.children {
-      display: none;
-      margin: 0 auto; }
-      .mobile-nav li ul.sub-menu li,
-      .mobile-nav li ul.children li {
-        width: 100%; }
-        .mobile-nav li ul.sub-menu li a,
-        .mobile-nav li ul.children li a {
-          background-color: #f8f9fa;
-          color: #2980b9; }
-  .mobile-nav .menu-item:nth-child(4n-2) ul.sub-menu {
-    margin: 0 -100%; }
-  .mobile-nav .menu-item:nth-child(4n-1) ul.sub-menu {
-    margin: 0 -200%; }
-  .mobile-nav .menu-item:nth-child(4n) ul.sub-menu {
-    margin: 0 -300%; }
-  .mobile-nav .mobile-nav li:nth-child(4n+1) {
-    clear: both; }
-
-/* end .mobile-nav */
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-.hentry {
-  background-color: #fff; }
-  .hentry footer p {
-    margin: 0; }
+.hentry footer p {
+  margin: 0; }
 
 /* end .hentry */
 .single-title,
@@ -1963,6 +1909,23 @@ SIDEBARS & ASIDES
   border: 1px solid #ccc;
   border-radius: 2px;
   margin-bottom: 1.5em; }
+
+.tab {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: left;
+  text-shadow: 0 -1px 1px #830d2d;
+  background: #d01448;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 1px #999;
+  -webkit-box-shadow: 0 1px 1px #999;
+  border-bottom: 1px solid #575757;
+  padding: 3px 10px;
+  cursor: pointer;
+  padding: 5px 10px 7px 10px; }
 
 /*********************
 FOOTER STYLES
