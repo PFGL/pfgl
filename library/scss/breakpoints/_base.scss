@@ -1144,21 +1144,16 @@ SIDEBARS & ASIDES
 	}
 
 .tab {
-    display: block;
-
     color: #fff;
-    text-decoration: none;
-    font-weight: normal;
-    text-align: left;
     text-shadow: 0 -1px 1px #830d2d;
 
     background: #d01448;
+    border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-box-shadow: 0 1px 1px #999;
     -webkit-box-shadow: 0 1px 1px #999;
     border-bottom: 1px solid #575757;
-    padding: 3px 10px;
     cursor: pointer;
     padding: 5px 10px 7px 10px;
 
