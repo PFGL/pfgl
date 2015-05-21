@@ -153,19 +153,11 @@ function bones_scripts_and_styles() {
       	wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'guybrush-modernizr' );
         wp_enqueue_script( 'pfgl-cookie');
+        wp_enqueue_script( 'guybrush-js' );
 		wp_enqueue_style( 'guybrush-stylesheet' );
 		wp_enqueue_style( 'guybrush-ie-only' );
 
 		$wp_styles->add_data( 'guybrush-ie-only', 'conditional', 'lt IE 9' ); // add conditional wrapper around ie stylesheet
-
-		/*
-		I recommend using a plugin to call jQuery
-		using the google cdn. That way it stays cached
-		and your site will load faster.
-		*/
-		wp_enqueue_script( 'jquery' );
-		wp_enqueue_script( 'guybrush-js' );
-
 	}
 }
 
