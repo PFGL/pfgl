@@ -1373,6 +1373,9 @@ HEADER STYLES
   border-bottom: 1px solid #575757;
   cursor: pointer; }
 
+.advice-image {
+  margin: 0 0 1em 1em; }
+
 .header-tel {
   font-size: 1.25em;
   text-align: center;
