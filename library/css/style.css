@@ -1926,6 +1926,15 @@ SIDEBARS & ASIDES
   padding: 3px 10px;
   cursor: pointer;
   padding: 5px 10px 7px 10px; }
+  .tab a {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.1em; }
+
+.tab-title {
+  font-size: 1.7em;
+  margin-bottom: .5em;
+  line-height: 2em; }
 
 /*********************
 FOOTER STYLES

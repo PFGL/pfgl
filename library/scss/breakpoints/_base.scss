@@ -1153,8 +1153,6 @@ SIDEBARS & ASIDES
     text-shadow: 0 -1px 1px #830d2d;
 
     background: #d01448;
-
-
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-box-shadow: 0 1px 1px #999;
@@ -1163,8 +1161,19 @@ SIDEBARS & ASIDES
     padding: 3px 10px;
     cursor: pointer;
     padding: 5px 10px 7px 10px;
+
+    a {
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.1em;
+    }
 }
 
+    .tab-title {
+        font-size: 1.7em;
+        margin-bottom: .5em;
+        line-height: 2em;
+    }
 /*********************
 FOOTER STYLES
 *********************/
