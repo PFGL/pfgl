@@ -1442,12 +1442,8 @@ POSTS & CONTENT STYLES
 *********************/
 .hentry {
   background-color: #fff; }
-  .hentry header {
-    padding: 1.5em; }
-  .hentry footer {
-    padding: 1.5em; }
-    .hentry footer p {
-      margin: 0; }
+  .hentry footer p {
+    margin: 0; }
 
 /* end .hentry */
 .single-title,
@@ -1472,14 +1468,14 @@ POSTS & CONTENT STYLES
 
 /* entry content */
 .entry-content {
-  padding: 0 1.5em 0;
   /*
 			image alignment on a screen this size may be
 			a bit difficult. It's set to start aligning
 			and floating images at the next breakpoint,
 			but it's up to you. Feel free to change it up.
 			*/ }
-  .entry-content ul, .entry-content ol {
+  .entry-content ul,
+  .entry-content ol {
     margin-left: 2em; }
   .entry-content ul {
     list-style-type: disc; }
