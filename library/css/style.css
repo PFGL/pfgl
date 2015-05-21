@@ -1374,7 +1374,9 @@ HEADER STYLES
   cursor: pointer; }
 
 .advice-image {
-  margin: 0 0.5em 0.5em 0; }
+  float: left;
+  margin-right: 8px;
+  margin-top: 3px; }
 
 .header-tel {
   font-size: 1.25em;
