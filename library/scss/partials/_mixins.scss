@@ -1,0 +1,205 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Mixins Stylesheet
+
+This is where you can take advantage of Sass' great features: Mixins.
+I won't go in-depth on how they work exactly,
+there are a few articles below that will help do that. What I will
+tell you is that this will help speed up simple changes like
+changing a color or adding CSS3 techniques gradients.
+
+A WORD OF WARNING: It's very easy to overdo it here. Be careful and
+remember less is more.
+
+Helpful:
+http://sachagreif.com/useful-sass-mixins/
+http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code
+http://web-design-weekly.com/blog/2013/05/12/handy-sass-mixins/
+
+******************************************************************/
+
+/*********************
+CLEARFIX
+*********************/
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/*********************
+TRANSITION
+*********************/
+
+/*
+I totally rewrote this to be cleaner and easier to use.
+You'll need to be using Sass 3.2+ for these to work.
+Thanks to @anthonyshort for the inspiration on these.
+USAGE: @include transition(all 0.2s ease-in-out);
+*/
+
+@mixin transition($transition...) {
+  // defining prefixes so we can use them in mixins below
+  $prefixes:      ("-webkit-", "" );
+  @each $prefix in $prefixes {
+    #{$prefix}transition: $transition;
+  }
+}
+
+/*********************
+CSS3 GRADIENTS
+Be careful with these since they can
+really slow down your CSS. Don't overdo it.
+*********************/
+
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+@mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {
+	background-color: $to;
+	background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+	background-image: -webkit-linear-gradient(top, $from, $to);
+	background-image: -moz-linear-gradient(top, $from, $to);
+	background-image: -o-linear-gradient(top, $from, $to);
+	background-image: linear-gradient(to bottom, $from, $to);
+}
+
+/*********************
+BOX SIZING
+*********************/
+
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
+@mixin box-sizing($type: border-box) {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing:    $type;
+	-ms-box-sizing:     $type;
+	box-sizing:         $type;
+}
+
+/*********************
+BOX  SHADOW
+*********************/
+
+@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
+}
+
+/*********************
+MAZE
+*********************/
+$grid-columns: 12;
+$unit: (100% / $grid-columns);
+$gutter: 2% !default;
+$push: 0 !default;
+
+$break-wide: 1240px;
+$break-desktop: 1030px;
+$break-tablet: 767px;
+$break-mobile: 480px;
+
+@mixin grid($col, $fold:"left", $push:$push) {
+  @include transition;
+  float: #{$fold};
+  width: (($unit * $col) - $gutter ) + ( $gutter / ( $grid-columns / $col) );
+  @if $push > 1 {
+    margin-left: (($unit * $push) ) + ( $gutter / ( $grid-columns / $push) );
+  }
+
+  @if $fold == left {
+  margin-right: $gutter;
+  &:last-child {
+    margin-right: 0;
+    }
+  }
+  @if $fold == right {
+    margin-left: $gutter;
+    &:last-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@mixin break($media, $col) {
+  @if $media == tablet {
+    @media only screen and (max-width:$break-tablet) {
+      width: (($unit * $col) - $gutter ) + ( $gutter / ( $grid-columns / $col) );
+      margin: $gutter / 2; margin-left: 0;
+    }
+  }
+  @else if $media == mobile {
+    @media only screen and (max-width:$break-mobile) {
+      width: (($unit * $col) - $gutter ) + ( $gutter / ( $grid-columns / $col) );
+      margin: $gutter / 2;
+    }
+  }
+}
+
+
+    // Adapted from http://coding.smashingmagazine.com/2013/08/20/semantic-css-with-intelligent-selectors/
+    // I removed the Comic Sans font declaration because, well, I really can't stand it, even in this context
+
+    %uglystyle {
+        display: block !important;
+        background: pink !important;
+        padding: 0.5em !important;
+        color: #000 !important;
+        //font-family: 'comic sans ms', cursive !important;
+    	//font-size: 16px !important;
+    }
+
+    // Rule 1: “If it’s a hyperlink, it should have an href attribute.”
+    a:not([href]):after {
+        @extend %uglystyle;
+        content: 'Do you mean for this to be a link or a button, because it does not link to anything!';
+    }
+
+    // Rule 2: “If it’s a hyperlink and has an href attribute, it should have a valid value.”
+    a[href=""]:after, a[href$="#"]:after, a[href^="javascript"]:after {
+        @extend %uglystyle;
+        content: 'Do you mean for this link to be a button, because it does not go anywhere!';
+    }
+
+    // Rule 3: “If it uses a button class, it should be a button — at least in the accessibility layer.”
+    .button:not(button):not([role="button"]):not([type="button"]):not([type="submit"]):not([type="reset"]):after,
+    .btn:not(button):not([role="button"]):not([type="button"]):not([type="submit"]):not([type="reset"]):after,
+    a[class*="button"]:not([role="button"]):after {
+       @extend %uglystyle;
+       content: 'If you are going to make it look like a button, make it a button, damn it!';
+    }
+
+    // Rule 4: “If it is an a element with role="button", then it should link to somewhere when JavaScript is off.”
+    a[role="button"]:not([href*="/"]):not([href*="."]):not([href*="?"]):after {
+       @extend %uglystyle;
+       content: 'Either use a link fallback, or just use a button element.';
+    }
+
+    // Rule 5: “You can’t disable a hyperlink.”
+    a.button[class*="disabled"]:after,
+    a.btn.disabled:after,
+    a[class*="button"][class*="disabled"]:after {
+        @extend %uglystyle;
+        content: 'You cannot disable a hyperlink. Use a button element with disabled="disabled".';
+    }
+
+    // Rule 6: “Buttons in forms should have explicit types.”
+    form button:not([type]):after {
+    	@extend %uglystyle;
+    	content: 'Is this a submit button, a reset button or what? Use type="submit", type="reset" or type="button"';
+    }
+
+    // Rule 7: “Both hyperlinks and buttons should have some sort of content or an ARIA label.”
+    // Buttons and links that don’t include any kind of direction for their usage are pretty bogus.
+    a:empty:not([aria-label]):not([aria-labelledby]):after,
+    button:empty:not([aria-label]):not([aria-labelledby]):after,
+    button:not([aria-label]):not([aria-labelledby]) img:only-child:not([alt]):after,
+    a:not([aria-label]):not([aria-labelledby]) img:only-child:not([alt]):after {
+        @extend %uglystyle;
+        content: 'All buttons and links should have text content, an image with alt text or an ARIA label';
+    }
+}
