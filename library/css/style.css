@@ -763,6 +763,12 @@ Stylesheet: Layout Stylesheet
       width: 98%;
       margin: 1%; } }
 
+.widget {
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
 .tab {
   float: left;
   width: 98%;
