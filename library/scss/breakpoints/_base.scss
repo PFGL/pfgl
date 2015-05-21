@@ -202,7 +202,9 @@ HEADER STYLES
 }
 
 .local:visited,
-.advice:visited {
+.local:hover,
+.advice:visited,
+.advice:hover {
     color: darken($white, 9%);
 }
 

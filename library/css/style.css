@@ -1390,7 +1390,9 @@ HEADER STYLES
   padding: 5px 10px 7px 10px; }
 
 .local:visited,
-.advice:visited {
+.local:hover,
+.advice:visited,
+.advice:hover {
   color: #e8e8e8; }
 
 /*********************
