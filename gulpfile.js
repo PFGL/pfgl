@@ -9,6 +9,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var minifyCSS = require('gulp-minify-css');
+var cssmin = require('gulp-cssmin');
 var imagemin = require('gulp-imagemin');
 
 // Lint Task
@@ -25,8 +26,8 @@ gulp.task('sass', function () {
     return gulp.src('library/scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('library/css'))
-        .pipe(minifyCSS())
-        .pipe(rename('style.min.css'))
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('library/css'));
 });
 
