@@ -1351,8 +1351,10 @@ HEADER STYLES
 .logo-container {
   margin-top: 1.5em; }
 
-#logo {
-  margin: 0; }
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; }
 
 .advice {
   display: inline-block;
