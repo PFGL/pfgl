@@ -19,7 +19,7 @@
 
                         <?php if ( function_exists( 'soliloquy' ) ) { soliloquy( 'homepage', 'slug' ); } ?>
 
-                        <div class="entry-content cf" itemprop="articleBody">
+                        <div class="entry-content" itemprop="articleBody">
                             <?php
                                 // the content (pretty self explanatory huh)
                                 the_content();
