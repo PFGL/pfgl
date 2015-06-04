@@ -2,17 +2,11 @@
 
 				<div id="inner-footer" class="wrapper">
 
-					<?php if ( wp_is_mobile() ) {}
+                    <?php get_sidebar ('contact');?>
 
-                        else {
+                    <?php get_sidebar ('legal');?>
 
-                            get_template_part ('partials/navigation' , 'footer');
-
-                        }
-
-                    ?>
-
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+                    <?php get_sidebar ('testimonials');?>
 
 				</div>
 
