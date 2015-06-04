@@ -24,7 +24,7 @@ Stylesheet: Layout Stylesheet
     #inner-header {}
 
         .logo-container {
-            @include grid(4);
+            @include grid(4, $margin:0);
             @include break(tablet, 12);
             @include break(mobile, 12);
         }
