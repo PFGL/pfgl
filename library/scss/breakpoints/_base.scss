@@ -1189,6 +1189,11 @@ SIDEBARS & ASIDES
 .testimonial {
     font-style: italic;
     font-size: 0.75em;
+    display: none;
+}
+
+.current {
+    display: block;
 }
 
 /*********************
