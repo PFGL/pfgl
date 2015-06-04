@@ -21,10 +21,12 @@ Stylesheet: Layout Stylesheet
 
   .header {}
 
-    #inner-header {}
+    #inner-header {
+        @include grid (12, $margin:0);
+    }
 
         .logo-container {
-            @include grid(4, $margin:0);
+            @include grid(4);
             @include break(tablet, 12);
             @include break(mobile, 12);
         }
@@ -41,7 +43,7 @@ Stylesheet: Layout Stylesheet
         }
 
   .nav {
-    @include grid(12, $margin:0);
+    @include grid(12);
   }
 
   #content {}
@@ -53,7 +55,7 @@ Stylesheet: Layout Stylesheet
       }
 
       #main, .main {
-        @include grid(8, $margin:0);
+        @include grid(8);
         @include break(tablet, 12);
         @include break(mobile, 12);
       }

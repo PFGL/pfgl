@@ -38,9 +38,9 @@
 		<?php // end analytics ?>
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body <?php body_class('wrapper'); ?>>
 
-        <header class="header" role="banner">
+        <header class="header container" role="banner">
 
             <div id="inner-header" class="wrapper">
                 <div class="logo-container">
