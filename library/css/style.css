@@ -1984,6 +1984,11 @@ SIDEBARS & ASIDES
 .tab-grey {
   background-color: #797979; }
 
+#text-3 {
+  background-color: #898989; }
+  #text-3 a {
+    color: #fff; }
+
 #text-4 {
   background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/happy-clients.png) no-repeat center; }
 
