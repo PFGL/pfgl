@@ -1984,6 +1984,9 @@ SIDEBARS & ASIDES
 .tab-grey {
   background-color: #797979; }
 
+.footer-sidebar {
+  margin-top: 1.5em; }
+
 #sidebar-legal {
   background-color: #898989;
   padding: 1em; }
