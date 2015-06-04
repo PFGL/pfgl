@@ -1192,6 +1192,10 @@ SIDEBARS & ASIDES
 #sidebar-contact{
     background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
         font-size: .75em;
+
+    h3 {
+        font-size:100%;
+    }
     a {
         color:#fff;
     }
