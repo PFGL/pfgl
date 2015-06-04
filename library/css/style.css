@@ -2090,6 +2090,7 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
   .nav {
+    margin: 1.5em 0 0 0;
     border: 0;
     background-color: #d31145;
     background: #d31145;

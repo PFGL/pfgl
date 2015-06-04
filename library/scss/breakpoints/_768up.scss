@@ -23,8 +23,7 @@ body {}
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-}
+.wrap {}
 
 /*********************
 HEADER STYLES
@@ -32,13 +31,14 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+	.logo {}
 
 /*********************
 NAVIGATION STYLES
 *********************/
 
 .nav {
+    margin: 1.5em 0 0 0;
 	border: 0;
     background-color: #d31145;
     background: rgba(211,17,69,1);
