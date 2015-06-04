@@ -789,6 +789,11 @@ Stylesheet: Layout Stylesheet
       width: 98%;
       margin: 1%; } }
 
+.widget:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .tab {
   float: left;
   width: 100%;
