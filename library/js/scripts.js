@@ -135,7 +135,7 @@ jQuery(document).ready(function ($) {
     }
     $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
 
-    var yourFade = 1, // the amount of time in seconds that the elements will fade in fade out
+   /* var yourFade = 1, // the amount of time in seconds that the elements will fade in fade out
         yourDelay = 2, // the amount of time in seconds that there will be a delay between the fade ins and fade outs
         fadeTime = yourFade * 1000, //convert fade seconds to milliseconds (1000)
         delayTime = yourDelay * 1000, // convert delay seconds to milliseconds (2000)
@@ -154,6 +154,6 @@ jQuery(document).ready(function ($) {
         } else {
             $(fadingElem).delay(totalTime * i).fadeIn(fadeTime).delay(delayTime).fadeOut(fadeTime);
         }
-    }
+    } */
 
 }); /* end of as page load scripts */
