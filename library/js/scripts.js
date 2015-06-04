@@ -126,8 +126,8 @@ jQuery(document).ready(function ($) {
         );
     }
 
-    var visited = $.cookie("pfglcookie"),
-        divs = $('.testimonial');
+    var visited = $.cookie("pfglcookie");
+
 
     if (visited === null) {
         $('.cookie_layer').show();
@@ -135,7 +135,7 @@ jQuery(document).ready(function ($) {
     }
     $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
 
-
+    var divs = $('.testimonial');
 
     function fade() {
         var current = $('.current'),
