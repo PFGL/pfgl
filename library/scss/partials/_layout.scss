@@ -66,14 +66,12 @@ Stylesheet: Layout Stylesheet
         @include break(mobile, 12);
        }
 
-.widget {
-    @include grid (12);
-}
+.widget {}
 
 .tab {
-       @include grid(12);
-        @include break(tablet, 4);
-        @include break(mobile, 12);
+    @include grid(12);
+    @include break(tablet, 4);
+    @include break(mobile, 12);
 }
 
   .footer {}
