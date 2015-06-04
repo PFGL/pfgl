@@ -71,7 +71,7 @@ Stylesheet: Layout Stylesheet
         .widget {}
 
         .tab {
-            @include grid(12);
+            @include grid(12, $margin:0);
             @include break(tablet, 4);
             @include break(mobile, 12);
         }
