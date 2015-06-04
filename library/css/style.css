@@ -2135,12 +2135,16 @@ NAVIGATION STYLES
           text-decoration: underline; }
       .nav li ul.sub-menu,
       .nav li ul.children {
-        margin-top: 0;
-        border: 1px solid #ccc;
-        border-top: 0;
-        position: absolute;
-        display: none;
+        background: #fff;
         z-index: 8999;
+        position: absolute;
+        width: 220px;
+        padding: 20px 20px 20px 0;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+        border-bottom: 2px solid #d31145;
+        border-left: 2px solid #d31145;
+        border-right: 2px solid #d31145;
         /* highlight sub-menu current page */ }
         .nav li ul.sub-menu li,
         .nav li ul.children li {
