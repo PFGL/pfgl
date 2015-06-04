@@ -126,12 +126,40 @@ jQuery(document).ready(function ($) {
         );
     }
 
-    var visited = $.cookie("pfglcookie");
+    var visited = $.cookie("pfglcookie"),
+        divs = $('.testimonial');
+
     if (visited === null) {
         $('.cookie_layer').show();
         $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
     }
     $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
+
+
+
+    function fade() {
+        var current = $('.current'),
+            currentIndex = divs.index(current),
+            nextIndex = currentIndex + 1,
+            next = divs.eq(nextIndex);
+
+        if (nextIndex >= divs.length) {
+            nextIndex = 0;
+        }
+
+
+
+        next.stop().fadeIn(2000, function () {
+            $(this).addClass('current');
+        });
+
+        current.stop().fadeOut(2000, function () {
+            $(this).removeClass('current');
+            setTimeout(fade, 2500);
+        });
+    }
+
+    fade();
 
 
 }); /* end of as page load scripts */
