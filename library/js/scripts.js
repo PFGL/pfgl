@@ -135,31 +135,25 @@ jQuery(document).ready(function ($) {
     }
     $.cookie('pfglcookie', 'yes', { expires: 365, path: '/' });
 
-    var divs = $('.testimonial');
+    var yourFade = 1, // the amount of time in seconds that the elements will fade in fade out
+        yourDelay = 2, // the amount of time in seconds that there will be a delay between the fade ins and fade outs
+        fadeTime = yourFade * 1000, //convert fade seconds to milliseconds (1000)
+        delayTime = yourDelay * 1000, // convert delay seconds to milliseconds (2000)
+        totalTime = delayTime, //3000 milliseconds...needed for all those delays we talked about
+        allElems, // find out exactly how many page elements have the 'toBeFaded' class (4)
+        elemNoFade, // Will help us find the last element represent the last element (3)
+        i,
+        fadingElem;
 
-    function fade() {
-        var current = $('.current'),
-            currentIndex = divs.index(current),
-            nextIndex = currentIndex + 1,
-            next = divs.eq(nextIndex);
-
-        if (nextIndex >= divs.length) {
-            nextIndex = 0;
+    for (i = 0, allElems = $('.testimonial').length, elemNoFade = allElems - 1; i < allElems; i = 1) {
+        fadingElem = "#test" + i;
+        if (i === 0) {
+            $(fadingElem).fadeIn(fadeTime).delay(delayTime).fadeOut(fadeTime);
+        } else if (i === elemNoFade) {
+            $(fadingElem).delay(totalTime * i).fadeIn(fadeTime);
+        } else {
+            $(fadingElem).delay(totalTime * i).fadeIn(fadeTime).delay(delayTime).fadeOut(fadeTime);
         }
-
-
-
-        next.stop().fadeIn(2000, function () {
-            $(this).addClass('current');
-        });
-
-        current.stop().fadeOut(2000, function () {
-            $(this).removeClass('current');
-            setTimeout(fade, 2000);
-        });
     }
-
-    fade();
-
 
 }); /* end of as page load scripts */
