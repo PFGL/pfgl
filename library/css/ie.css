@@ -187,6 +187,7 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 .nav {
+  margin-top: 0;
   margin-bottom: 0;
   border: 0;
   background-color: #d31145;
