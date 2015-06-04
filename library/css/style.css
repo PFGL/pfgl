@@ -2155,11 +2155,15 @@ NAVIGATION STYLES
 				*/ }
           .nav li ul.sub-menu li a,
           .nav li ul.children li a {
-            padding-left: 10px;
+            padding: 7px 5px 7px 22px;
             border-right: 0;
             display: block;
             width: 180px;
-            border-bottom: 1px solid #ccc; }
+            float: left;
+            color: #000;
+            text-shadow: none;
+            list-style-type: disc;
+            background-color: #fff; }
           .nav li ul.sub-menu li:last-child a,
           .nav li ul.children li:last-child a {
             border-bottom: 0; }
