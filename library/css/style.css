@@ -2163,7 +2163,8 @@ NAVIGATION STYLES
             color: #000;
             text-shadow: none;
             list-style-type: disc;
-            background-color: #fff; }
+            background-color: #fff;
+            text-align: left; }
           .nav li ul.sub-menu li:last-child a,
           .nav li ul.children li:last-child a {
             border-bottom: 0; }
