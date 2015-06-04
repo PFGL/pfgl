@@ -1989,7 +1989,8 @@ SIDEBARS & ASIDES
 
 #sidebar-legal {
   background-color: #898989;
-  padding: 1em; }
+  padding: 1em;
+  font-size: .75em; }
   #sidebar-legal a {
     color: #fff; }
 
