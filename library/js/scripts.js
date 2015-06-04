@@ -155,7 +155,7 @@ jQuery(document).ready(function ($) {
 
         current.stop().fadeOut(2000, function () {
             $(this).removeClass('current');
-            setTimeout(fade, 2500);
+            setTimeout(fade, 2000);
         });
     }
 
