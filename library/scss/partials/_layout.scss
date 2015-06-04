@@ -42,9 +42,9 @@ Stylesheet: Layout Stylesheet
             @include grid(6);
         }
 
-  .nav {
-    @include grid(12);
-  }
+        .navigation {
+            @include grid(12);
+        }
 
   #content {}
 

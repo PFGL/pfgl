@@ -52,7 +52,7 @@
                 </div>
                 <?php get_sidebar ('header');?>
 
-                <nav role="navigation">
+                <nav role="navigation" class="navigation">
 
                   <?php wp_nav_menu(array(
                     'container' => false,                           // remove nav container
