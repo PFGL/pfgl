@@ -1993,10 +1993,10 @@ SIDEBARS & ASIDES
   margin-top: 1.5em; }
 
 #sidebar-contact {
-  background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
-  font-size: .75em; }
-  #sidebar-contact h3 {
-    font-size: 100%; }
+  background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left; }
+  #sidebar-contact address,
+  #sidebar-contact ul {
+    font-size: .75em; }
   #sidebar-contact a {
     color: #fff; }
 
