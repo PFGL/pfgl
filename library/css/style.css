@@ -1994,6 +1994,9 @@ SIDEBARS & ASIDES
 
 #sidebar-contact {
   background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left; }
+  #sidebar-contact address {
+    background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/iconaddress.png) no-repeat top left;
+    padding-left: 35px; }
   #sidebar-contact address,
   #sidebar-contact ul {
     font-size: .75em; }
