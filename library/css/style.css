@@ -2175,6 +2175,8 @@ NAVIGATION STYLES
       .nav li:hover > ul {
         top: auto; }
   /* end .nav */
+  .soliloquy-container {
+    margin: 0 auto; }
   /*********************
 SIDEBARS & ASIDES
 *********************/
