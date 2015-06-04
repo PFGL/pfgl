@@ -359,7 +359,9 @@ POSTS & CONTENT STYLES
 		/* entry content */
 		.entry-content {
 
-			p {}
+			p {
+                margin-bottom: 0;
+            }
 
 			ul, ol, table, dl {}
 
