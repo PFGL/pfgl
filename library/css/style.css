@@ -735,6 +735,12 @@ Stylesheet: Layout Stylesheet
   margin-left: 1%;
   margin-right: 1%; }
 
+#inner-content {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0; }
+
 .full {
   float: left;
   width: 98%;
@@ -782,6 +788,12 @@ Stylesheet: Layout Stylesheet
     .tab {
       width: 98%;
       margin: 1%; } }
+
+#inner-footer {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0; }
 
 /******************************************************************
 Site Name:

@@ -48,7 +48,9 @@ Stylesheet: Layout Stylesheet
 
   #content {}
 
-    #inner-content {}
+    #inner-content {
+        @include grid (12, $margin:0);
+    }
 
       .full {
         @include grid (12);
@@ -66,12 +68,16 @@ Stylesheet: Layout Stylesheet
         @include break(mobile, 12);
        }
 
-.widget {}
+        .widget {}
 
-.tab {
-    @include grid(12);
-    @include break(tablet, 4);
-    @include break(mobile, 12);
-}
+        .tab {
+            @include grid(12);
+            @include break(tablet, 4);
+            @include break(mobile, 12);
+        }
 
-  .footer {}
+.footer {}
+
+    #inner-footer {
+        @include grid (12, $margin:0);
+    }
