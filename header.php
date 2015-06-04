@@ -38,11 +38,11 @@
 		<?php // end analytics ?>
 	</head>
 
-	<body <?php body_class('wrapper'); ?>>
+	<body <?php body_class(); ?>>
 
-        <header class="header container" role="banner">
+        <header class="header wrapper" role="banner">
 
-            <div id="inner-header" class="wrapper">
+            <div id="inner-header" class="container">
                 <div class="logo-container">
                     <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
                     <a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="<?php bloginfo('name'); ?>" class="logo"></a>
@@ -51,8 +51,24 @@
                     <?php // bloginfo('description'); ?>
                 </div>
                 <?php get_sidebar ('header');?>
-            </div>
 
-            <?php  get_template_part ('partials/navigation'); ?>
+                <nav role="navigation">
+
+                  <?php wp_nav_menu(array(
+                    'container' => false,                           // remove nav container
+                    'container_class' => '',                 // class of container (should you choose to use it)
+                    'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
+                    'menu_class' => 'nav top-nav cf',               // adding custom nav class
+                    'theme_location' => 'main-nav',                 // where it's located in the theme
+                    'before' => '',                                 // before the menu
+                    'after' => '',                                  // after the menu
+                    'link_before' => '',                            // before each link
+                    'link_after' => '',                             // after each link
+                    'depth' => 0,                                   // limit the depth of the nav
+                    'fallback_cb' => ''                             // fallback function (if there is one)
+                  )); ?>
+
+                </nav>
+            </div>
 
         </header>
