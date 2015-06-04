@@ -149,13 +149,13 @@ jQuery(document).ready(function ($) {
 
 
 
-        next.stop().fadeIn(1000, function () {
+        next.stop().fadeIn(2000, function () {
             $(this).addClass('current');
         });
 
-        current.stop().fadeOut(1000, function () {
+        current.stop().fadeOut(2000, function () {
             $(this).removeClass('current');
-            setTimeout(fade, 2000);
+            setTimeout(fade, 2500);
         });
     }
 

@@ -1984,8 +1984,13 @@ SIDEBARS & ASIDES
 .tab-grey {
   background-color: #797979; }
 
+#text-4 {
+  background: url(images/happy-clients.png) no-repeat center; }
+
 .testimonial {
-  display: none; }
+  display: none;
+  font-style: italic;
+  font-size: 0.75em; }
 
 .current {
   display: block; }
