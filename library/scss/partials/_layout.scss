@@ -41,7 +41,7 @@ Stylesheet: Layout Stylesheet
         }
 
   .nav {
-    @include grid(12);
+    @include grid(12, $margin:0);
   }
 
   #content {}
