@@ -1,4 +1,4 @@
-<div id="contact" role="complementary">
+<div id="sidebar-contact" class="sidebar footer-sidebar" role="complementary">
 
     <?php if ( is_active_sidebar( 'sidebar-contact' ) ) : ?>
 
