@@ -1517,7 +1517,8 @@ POSTS & CONTENT STYLES
   font-size: 1.5em;
   text-transform: uppercase;
   padding: 0 1em;
-  font-family: "Century Gothic",Helvetica,sans-seri; }
+  font-family: "Century Gothic",Helvetica,sans-serif;
+  float: left; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */

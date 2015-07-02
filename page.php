@@ -10,7 +10,7 @@
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                                <header class="article-header">
+                                <header class="article-header cf">
 
                                   <h1 class="entry-title page-title" itemprop="headline">
                                      <?php the_title(); ?>
