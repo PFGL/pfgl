@@ -1993,7 +1993,8 @@ SIDEBARS & ASIDES
   margin-top: 1.5em; }
 
 #sidebar-contact {
-  background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left; }
+  background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/ukmap.png) no-repeat top left;
+  min-height: 300px; }
   #sidebar-contact address {
     background: url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/iconaddress.png) no-repeat top left;
     padding-left: 35px; }
