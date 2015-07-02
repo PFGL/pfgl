@@ -331,7 +331,14 @@ POSTS & CONTENT STYLES
 
 		.single-title {}
 
-		.page-title {}
+		.page-title {
+            background: #d31145 url(images/titlebg.png) no-repeat left top;
+            color: #fff;
+            font-weight: normal;
+            text-transform: uppercase;
+            padding: 0 10px 0 10px;
+            font-family: "Century Gothic",Helvetica,sans-seri
+        }
 
 		.entry-title {}
 

@@ -1511,6 +1511,14 @@ POSTS & CONTENT STYLES
 .entry-title {
   margin: 0; }
 
+.page-title {
+  background: #d31145 url(images/titlebg.png) no-repeat left top;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 0 10px 0 10px;
+  font-family: "Century Gothic",Helvetica,sans-seri; }
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */

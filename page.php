@@ -27,8 +27,6 @@
 
                                 <?php get_template_part ('partials/article-footer')?>
 
-								<?php comments_template(); ?>
-
 							</article>
 
 							<?php endwhile; else : ?>
