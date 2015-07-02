@@ -1512,9 +1512,8 @@ POSTS & CONTENT STYLES
   margin: 0; }
 
 .page-title {
-  background: #d31145 url(images/titlebg.png) no-repeat left top;
+  background: #d31145 url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/titlebg.png) no-repeat left top;
   color: #fff;
-  font-weight: normal;
   text-transform: uppercase;
   padding: 0 10px 0 10px;
   font-family: "Century Gothic",Helvetica,sans-seri; }
