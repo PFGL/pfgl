@@ -10,7 +10,13 @@
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                                <?php get_template_part ('partials/article-header')?>
+                                <header class="article-header">
+
+                                  <h1 class="entry-title page-title" itemprop="headline">
+                                      <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                                  </h1>
+
+                                </header> <?php // end article header ?>
 
 								<div class="entry-content" itemprop="articleBody">
 									<?php
