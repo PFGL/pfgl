@@ -13,7 +13,7 @@
                                 <header class="article-header">
 
                                   <h1 class="entry-title page-title" itemprop="headline">
-                                      <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+                                     <?php the_title(); ?>
                                   </h1>
 
                                 </header> <?php // end article header ?>
