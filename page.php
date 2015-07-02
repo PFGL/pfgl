@@ -25,7 +25,9 @@
 									?>
 								</div> <?php // end article section ?>
 
-                                <?php get_template_part ('partials/article-footer')?>
+                                <footer class="article-footer">
+
+                                </footer> <?php // end article footer ?>
 
 							</article>
 
