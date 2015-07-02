@@ -1627,6 +1627,11 @@ POSTS & CONTENT STYLES
 .team-member {
   border-bottom: 1px dotted #000; }
 
+.profilepic {
+  float: left;
+  clear: both;
+  margin-right: 1em; }
+
 /******************************************************************
 POST FORMATS
 ******************************************************************/
