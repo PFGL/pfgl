@@ -20,7 +20,7 @@
         display: block;
         width: 24px;
         height: 24px;
-        background: url(images/bullets.png) no-repeat top;
+        background: url(/wp-content/themes/pfgl/library/images/bullets.png) no-repeat top;
         text-indent: -9999px;
         position: absolute;
 	}
@@ -28,7 +28,7 @@
 }
 
 	.active.bullet {
-	   background: url(images/bullets.png) no-repeat bottom!important;
+	   background: url(/wp-content/themes/pfgl/library/images/bullets.png) no-repeat bottom!important;
 	}
 
 	/* IFA Locations */
