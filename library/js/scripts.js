@@ -166,4 +166,13 @@ jQuery(document).ready(function ($) {
         }
     } */
 
+    $('.preview').hover(
+        function () {
+            $(this).children('.map-logo').slideDown(200);
+        },
+
+        function () {
+            $(this).children('.map-logo').slideUp(200);
+        }
+    );
 }); /* end of as page load scripts */
