@@ -1291,6 +1291,8 @@ select {
     background: url(/wp-content/themes/pfgl/library/images/bullets.png) no-repeat top;
     text-indent: -9999px;
     position: absolute; }
+  .ifa-map .bullet #rutherford-wilkinson {
+    text-indent: inherit; }
 
 .active.bullet {
   background: url(/wp-content/themes/pfgl/library/images/bullets.png) no-repeat bottom !important; }
