@@ -41,6 +41,15 @@ function selectThis(id) {
     //Remove that pesky selected from all
 }
 
+function hoverTool(id) {
+    "use strict";
+    //Off to a fine start, could search the DOM Element and do a .each function on the divs inside, or just hide all of that class...
+    jQuery('.map-logo').hide();
+    // ID of Body plus whatever param we pass down,
+    jQuery('#map-logo-' + id).fadeIn(200);
+    //Remove that pesky selected from all
+}
+
 /*
  * Throttle Resize-triggered Events
  * Wrap your actions in this function to throttle the frequency of firing them off, for better performance, esp. on mobile.
@@ -165,7 +174,7 @@ jQuery(document).ready(function ($) {
         }
     } */
 
-    $('.bullet').hover(
+   /* $('.bullet').hover(
         function () {
             $(this).addClass('active');
             $(this).children('.map-logo').fadeIn(200);
@@ -175,5 +184,5 @@ jQuery(document).ready(function ($) {
             $(this).removeClass('active');
             $(this).children('.map-logo').fadeOut(200);
         }
-    );
+    );*/
 }); /* end of as page load scripts */
