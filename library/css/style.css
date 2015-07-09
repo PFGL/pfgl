@@ -1263,6 +1263,13 @@ select {
   position: absolute;
   top: 33%; }
 
+#ifa-content {
+  clear: both;
+  float: left;
+  width: 400px;
+  display: inline;
+  margin-top: 25px; }
+
 #ifa-map {
   float: right;
   width: 474px;
