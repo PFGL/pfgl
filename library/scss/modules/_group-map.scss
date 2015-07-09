@@ -69,12 +69,3 @@
 .ifa-details-active {
     display:block;
 }
-
-.map-logo {
-    visibility: hidden;
-}
-
-.bullet:hover + .map-logo {
-        visibility: visible;
-    }
-

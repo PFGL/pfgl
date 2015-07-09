@@ -1411,12 +1411,6 @@ select {
 .ifa-details-active {
   display: block; }
 
-.map-logo {
-  visibility: hidden; }
-
-.bullet:hover + .map-logo {
-  visibility: visible; }
-
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
