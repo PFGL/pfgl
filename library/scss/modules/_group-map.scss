@@ -6,9 +6,9 @@
     position: relative;
     margin: 25px 0 50px 0;
     background: url(/images/map.jpg) no-repeat 0 0;
-}
 
-	#ifa-map .bullet {
+
+    .bullet {
         display: block;
         width: 24px;
         height: 24px;
@@ -16,6 +16,8 @@
         text-indent: -9999px;
         position: absolute;
 	}
+
+}
 
 	.active.bullet {
 	   background: url(images/bullets.png) no-repeat bottom!important;
