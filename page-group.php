@@ -30,7 +30,7 @@
                                     </div>
 
 				        <div class="ifa-map">
-			<a id="rutherford-wilkinson" onmouseover="hoverTool('rutherford')" ononclick="selectThis('rutherford-wilkinson')" href="javascript:void(0);" class="bullet preview">RutherfordWilkinson</a>
+			<a id="rutherford-wilkinson" ononclick="selectThis('rutherford-wilkinson')" href="javascript:void(0);" class="bullet preview">RutherfordWilkinson</a>
             <img src="/wp-content/themes/pfgl/library/images/rw.jpg" width="100" height="52" class="map-logo" id="map-logo-rutherford>
 			<a id="harrogate-independent"  onclick="selectThis('harrogate-independent')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/harrogate.gif" class="bullet preview">Harrogate Independent Financial Services</a>
 			<a id="multiplex"  onclick="selectThis('multiplex')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/multiplex.jpg" class="bullet preview">Multiplex</a>
