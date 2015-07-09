@@ -1415,7 +1415,8 @@ select {
   display: block; }
 
 .map-logo {
-  border: 2px solid #404040; }
+  border: 2px solid #404040;
+  display: none; }
 
 /*********************
 BASE (MOBILE) SIZE
