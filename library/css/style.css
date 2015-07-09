@@ -1270,15 +1270,14 @@ select {
   display: inline;
   position: relative;
   margin: 25px 0 50px 0;
-  background: url(images/map2.jpg) no-repeat 0 0; }
-
-#ifa-map .bullet {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: url(images/bullets.png) no-repeat top;
-  text-indent: -9999px;
-  position: absolute; }
+  background: url(/images/map.jpg) no-repeat 0 0; }
+  #ifa-map .bullet {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(images/bullets.png) no-repeat top;
+    text-indent: -9999px;
+    position: absolute; }
 
 .active.bullet {
   background: url(images/bullets.png) no-repeat bottom !important; }
