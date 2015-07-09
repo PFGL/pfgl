@@ -32,8 +32,8 @@
 				        <div class="ifa-map">
 			<a id="rutherford-wilkinson" onclick="selectThis('rutherford-wilkinson')" href="javascript:void(0);" class="bullet preview">Rutherford Wilkinson        <img src="/wp-content/themes/pfgl/library/images/rw.jpg" width="100" height="52" class="map-logo" id="map-logo-rutherford"></a>
 
-			<a id="harrogate-independent"  onclick="selectThis('harrogate-independent')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/harrogate.gif" class="bullet preview">Harrogate Independent Financial Services</a>
-			<a id="multiplex"  onclick="selectThis('multiplex')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/multiplex.jpg" class="bullet preview">Multiplex</a>
+			<a id="harrogate-independent"  onclick="selectThis('harrogate-independent')" href="javascript:void(0);" class="bullet preview">Harrogate Independent Financial Services</a>
+			<a id="multiplex"  onclick="selectThis('multiplex')" href="javascript:void(0);" class="bullet preview">Multiplex</a>
 			<a id="perspective-group" onclick="selectThis('perspective-group')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/pfgl.jpg" class="bullet preview">Perspective Group</a>
 			<a id="warnes-anderton" onclick="selectThis('warnes-anderton')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/warnesanderton.jpg" class="bullet preview">Warnes Anderton</a>
 			<a id="cambridge-investments" onclick="selectThis('cambridge-investments')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/cambridge.jpg" class="bullet preview">Cambridge Investments Limited</a>
