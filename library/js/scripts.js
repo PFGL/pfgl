@@ -169,12 +169,12 @@ jQuery(document).ready(function ($) {
     $('.bullet').hover(
         function () {
             $(this).addClass('active');
-            $(this).children('.map-logo').slideDown(200);
+            $(this).children('.map-logo').fadeIn(200);
         },
 
         function () {
             $(this).removeClass('active');
-            $(this).children('.map-logo').slideUp(200);
+            $(this).children('.map-logo').fadeOut(200);
         }
     );
 }); /* end of as page load scripts */
