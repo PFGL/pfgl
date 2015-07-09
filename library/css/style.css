@@ -1300,7 +1300,8 @@ select {
 /* IFA Locations */
 #rutherford-wilkinson {
   top: 181px;
-  left: 270px; }
+  left: 270px;
+  text-indent: 0; }
 
 #harrogate-independent {
   top: 249px;
