@@ -38,9 +38,9 @@ function selectThis(id) {
     jQuery('.ifa-details').fadeOut(500);
     // ID of Body plus whatever param we pass down,
     jQuery('#details-' + id).delay(500).fadeIn(500);
+    jQuery(this).addClass('active');
     //Remove that pesky selected from all
 }
-
 
 /*
  * Throttle Resize-triggered Events
