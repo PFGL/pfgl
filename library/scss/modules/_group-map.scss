@@ -13,7 +13,8 @@
     display: inline;
     position: relative;
     margin: 25px 0 50px 0;
-    background: url(/wp-content/themes/pfgl/library/images/map.jpg) no-repeat 0 0;
+    background: url(/wp-content/themes/pfgl/library/images/map.jpg) no-repeat;
+    background-position:top left;
 
 
     .bullet {
