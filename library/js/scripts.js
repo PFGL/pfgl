@@ -33,6 +33,7 @@ function updateViewportDimensions() {
 var viewport = updateViewportDimensions();
 
 function selectThis(id) {
+    "use strict";
     //Off to a fine start, could search the DOM Element and do a .each function on the divs inside, or just hide all of that class...
     jQuery('.ifa-details').fadeOut(500);
     // ID of Body plus whatever param we pass down,
