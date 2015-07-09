@@ -166,13 +166,14 @@ jQuery(document).ready(function ($) {
         }
     } */
 
-    $('.preview').hover(
+    $('.bullet').hover(
         function () {
-            $(this).addClass('.active');
+            $(this).addClass('active');
             $(this).children('.map-logo').slideDown(200);
         },
 
         function () {
+            $(this).removeClass('active');
             $(this).children('.map-logo').slideUp(200);
         }
     );
