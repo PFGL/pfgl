@@ -1411,10 +1411,10 @@ select {
 .ifa-details-active {
   display: block; }
 
-.bullet p {
+.map-logo {
   visibility: hidden; }
 
-.bullet:hover p {
+.bullet:hover + .map-logo {
   visibility: visible; }
 
 /*********************
