@@ -35,15 +35,15 @@
 			<a id="harrogate-independent"  onclick="selectThis('harrogate-independent')" href="javascript:void(0);" class="bullet preview">Harrogate Independent Financial Services</a>
 			<a id="multiplex"  onclick="selectThis('multiplex')" href="javascript:void(0);" class="bullet preview">Multiplex</a>
 			<a id="perspective-group" onclick="selectThis('perspective-group')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/pfgl.jpg" class="bullet preview">Perspective Group</a>
-			<a id="warnes-anderton" onclick="selectThis('warnes-anderton')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/warnesanderton.jpg" class="bullet preview">Warnes Anderton</a>
-			<a id="cambridge-investments" onclick="selectThis('cambridge-investments')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/cambridge.jpg" class="bullet preview">Cambridge Investments Limited</a>
-			<a id="applewood1" onclick="selectThis('applewood1')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/applewood.jpg" class="bullet preview">Applewood Wealth Management Ltd</a>
-			<a id="applewood2" onclick="selectThis('applewood2')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/applewood.jpg" class="bullet preview">Applewood Wealth Management Ltd</a>
-			<a id="wingham-wyatt" onclick="selectThis('wingham-wyatt')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/wingham-wyatt.jpg" class="bullet preview">Wingham Wyatt Financial Services Ltd</a>
-			<a id="perspective-financial" onclick="selectThis('perspective-financial')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/perspective.gif" class="bullet preview">Perspective Financial Management Ltd </a>
-			<a id="chessman-partners" onclick="selectThis('chessman-partners')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/chessmanpartners.jpg" class="bullet preview">Chessman &amp; Partners Ltd</a>
-			<a id="pims" onclick="selectThis('pims')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/pims.jpg" class="bullet preview">Professional Investment Management Services (Maidstone) Ltd</a>
-			<a id="platinum-portfolios" onclick="selectThis('platinum-portfolios')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/platinum.jpg" class="bullet preview">Platinum Portfolios</a>
+			<a id="warnes-anderton" onclick="selectThis('warnes-anderton')"  href="javascript:void(0);" class="bullet preview">Warnes Anderton</a>
+			<a id="cambridge-investments" onclick="selectThis('cambridge-investments')"  href="javascript:void(0);" class="bullet preview">Cambridge Investments Limited</a>
+			<a id="applewood1" onclick="selectThis('applewood1')"  href="javascript:void(0);" class="bullet preview">Applewood Wealth Management Ltd</a>
+			<a id="applewood2" onclick="selectThis('applewood2')"  href="javascript:void(0);" class="bullet preview">Applewood Wealth Management Ltd</a>
+			<a id="wingham-wyatt" onclick="selectThis('wingham-wyatt')" href="javascript:void(0);" class="bullet preview">Wingham Wyatt Financial Services Ltd</a>
+			<a id="perspective-financial" onclick="selectThis('perspective-financial')"  href="javascript:void(0);" class="bullet preview">Perspective Financial Management Ltd </a>
+			<a id="chessman-partners" onclick="selectThis('chessman-partners')"  href="javascript:void(0);" class="bullet preview">Chessman &amp; Partners Ltd</a>
+			<a id="pims" onclick="selectThis('pims')"  href="javascript:void(0);" class="bullet preview">Professional Investment Management Services (Maidstone) Ltd</a>
+			<a id="platinum-portfolios" onclick="selectThis('platinum-portfolios')"  href="javascript:void(0);" class="bullet preview">Platinum Portfolios</a>
 			<a id="equilibrium" onclick="selectThis('equilibrium')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/equilibrium.jpg" class="bullet preview">Equilibrium Wealth Management Limited</a>
 			<a id="leedham" onclick="selectThis('leedham')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/leedham.jpg" class="bullet preview">Leedham Independent Financial Advisers Limited</a>
 			<a id="austyn-james" onclick="selectThis('austyn-james')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/austyn.jpg" class="bullet preview">Austyn James Consulting Limited</a>
