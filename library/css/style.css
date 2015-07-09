@@ -1263,14 +1263,14 @@ select {
   position: absolute;
   top: 33%; }
 
-#ifa-content {
+.ifa-content {
   clear: both;
   float: left;
   width: 400px;
   display: inline;
   margin-top: 25px; }
 
-#ifa-map {
+.ifa-map {
   float: right;
   width: 474px;
   height: 542px;
@@ -1278,7 +1278,7 @@ select {
   position: relative;
   margin: 25px 0 50px 0;
   background: url(/wp-content/themes/pfgl/library/images/map.jpg) no-repeat 0 0; }
-  #ifa-map .bullet {
+  .ifa-map .bullet {
     display: block;
     width: 24px;
     height: 24px;
