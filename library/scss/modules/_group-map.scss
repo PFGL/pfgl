@@ -59,3 +59,44 @@
 	#leedham {top: 290px; left: 274px;}
 	#shirebrook {top: 280px; left: 290px;}
 	#financial-connection {top: 400px; left: 395px; }
+
+/* IFA Details */
+
+#ifa-details {
+clear: both;
+margin: 40px 0;
+}
+
+#ifa-details address {
+font-style: normal;
+}
+
+#ifa-details img {
+/*float: right;
+margin: 0 25px;
+padding: 5px;*/
+}
+
+#ifa-details h3 {
+font-size: 15px;
+line-height: 22px;
+}
+
+.ifa-details {
+clear: both;
+margin: 40px 0;
+display:none;
+}
+
+.ifa-details-active {
+display:block;
+}
+
+.ifa-details address {
+font-style: normal;
+}
+
+.ifa-details h3 {
+font-size: 15px;
+line-height: 22px;
+}
