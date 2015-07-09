@@ -1411,10 +1411,10 @@ select {
 .ifa-details-active {
   display: block; }
 
-.preview p {
-  visiblity: hidden; }
+.bullet p {
+  visibility: hidden; }
 
-.preview:hover p {
+.bullet:hover p {
   visibility: visible; }
 
 /*********************
