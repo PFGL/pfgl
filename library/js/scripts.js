@@ -168,6 +168,7 @@ jQuery(document).ready(function ($) {
 
     $('.preview').hover(
         function () {
+            $(this).addClass('.active');
             $(this).children('.map-logo').slideDown(200);
         },
 

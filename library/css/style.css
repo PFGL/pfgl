@@ -1414,6 +1414,9 @@ select {
 .ifa-details-active {
   display: block; }
 
+.map-logo {
+  width: 500px; }
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
