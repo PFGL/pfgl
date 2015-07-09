@@ -8,22 +8,50 @@
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<?php
-								/*
-								 * Ah, post formats. Nature's greatest mystery (aside from the sloth).
-								 *
-								 * So this function will bring in the needed template file depending on what the post
-								 * format is. The different post formats are located in the post-formats folder.
-								 *
-								 *
-								 * REMEMBER TO ALWAYS HAVE A DEFAULT ONE NAMED "format.php" FOR POSTS THAT AREN'T
-								 * A SPECIFIC POST FORMAT.
-								 *
-								 * If you want to remove post formats, just delete the post-formats folder and
-								 * replace the function below with the contents of the "format.php" file.
-								*/
-								get_template_part( 'post-formats/format', get_post_format() );
-							?>
+
+              <?php
+                /*
+                 * This is the default post format.
+                 *
+                 * So basically this is a regular post. if you don't want to use post formats,
+                 * you can just copy ths stuff in here and replace the post format thing in
+                 * single.php.
+                 *
+                 * The other formats are SUPER basic so you can style them as you like.
+                 *
+                 * Again, If you want to remove post formats, just delete the post-formats
+                 * folder and replace the function below with the contents of the "format.php" file.
+                */
+              ?>
+
+              <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+
+<header class="article-header">
+
+  <h1 class="entry-title single-title" itemprop="headline">
+      <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+  </h1>
+
+</header> <?php // end article header ?>
+
+
+                <div class="entry-content" itemprop="articleBody">
+                  <?php
+                    // the content (pretty self explanatory huh)
+                    the_content();
+                  ?>
+                </div> <?php // end article section ?>
+
+                <footer class="article-footer">
+
+                  <?php printf( __( 'Filed under: %1$s', 'bonestheme' ), get_the_category_list(', ') ); ?>
+
+                  <?php the_tags( '<p class="tags"><span class="tags-title">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '</p>' ); ?>
+
+                </footer> <?php // end article footer ?>
+
+              </article> <?php // end article ?>
+
 
 						<?php endwhile; ?>
 
