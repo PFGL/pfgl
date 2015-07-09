@@ -32,6 +32,14 @@ function updateViewportDimensions() {
 // setting the viewport width
 var viewport = updateViewportDimensions();
 
+function selectThis(id) {
+    //Off to a fine start, could search the DOM Element and do a .each function on the divs inside, or just hide all of that class...
+    jQuery('.ifa-details').fadeOut(500);
+    // ID of Body plus whatever param we pass down,
+    jQuery('#details-' + id).delay(500).fadeIn(500);
+    //Remove that pesky selected from all
+}
+
 
 /*
  * Throttle Resize-triggered Events
@@ -156,13 +164,5 @@ jQuery(document).ready(function ($) {
             $(fadingElem).delay(totalTime * i).fadeIn(fadeTime).delay(delayTime).fadeOut(fadeTime);
         }
     } */
-
-    function selectThis(id) {
-		//Off to a fine start, could search the DOM Element and do a .each function on the divs inside, or just hide all of that class...
-		jQuery('.ifa-details').fadeOut(500);
-		// ID of Body plus whatever param we pass down,
-		jQuery('#details-' + id).delay(500).fadeIn(500);
-		//Remove that pesky selected from all
-	}
 
 }); /* end of as page load scripts */
