@@ -97,6 +97,9 @@ body {
 li + li {
   margin-top: 0; }
 
+.bullet + .bullet {
+  margin-top: 0; }
+
 .nivoSlider img + img {
   margin-top: 0; }
 
@@ -1277,8 +1280,7 @@ select {
   display: inline;
   position: relative;
   margin: 25px 0 50px 0;
-  background: url(/wp-content/themes/pfgl/library/images/map.jpg) no-repeat;
-  background-position: left top; }
+  background: url(/wp-content/themes/pfgl/library/images/map.jpg) no-repeat; }
   .ifa-map .bullet {
     display: block;
     width: 24px;

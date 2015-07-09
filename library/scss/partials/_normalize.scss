@@ -96,6 +96,10 @@ li  + li {
 margin-top: 0;
 }
 
+.bullet + .bullet {
+    margin-top: 0;
+}
+
 .nivoSlider {
     img + img {
         margin-top: 0;
