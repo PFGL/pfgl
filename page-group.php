@@ -29,7 +29,7 @@
                                         <?php the_content(); ?>
                                     </div>
 
-				        <div iclass="ifa-map">
+				        <div class="ifa-map">
 			<a id="rutherford-wilkinson"  onclick="selectThis('rutherford-wilkinson')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/rw.jpg" class="bullet preview">Rutherford Wilkinson</a>
 			<a id="harrogate-independent"  onclick="selectThis('harrogate-independent')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/harrogate.gif" class="bullet preview">Harrogate Independent Financial Services</a>
 			<a id="multiplex"  onclick="selectThis('multiplex')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/multiplex.jpg" class="bullet preview">Multiplex</a>
