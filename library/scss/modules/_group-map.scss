@@ -69,3 +69,11 @@
 .ifa-details-active {
     display:block;
 }
+
+.preview  p {
+    visiblity: hidden;
+}
+
+.preview:hover p {
+    visibility: visible;
+}

@@ -92,6 +92,7 @@ var timeToWaitForLast = 100;
  *
 */
 
+
 /*
  * Put all your regular jQuery in here.
 */
@@ -155,7 +156,6 @@ jQuery(document).ready(function ($) {
             $(fadingElem).delay(totalTime * i).fadeIn(fadeTime).delay(delayTime).fadeOut(fadeTime);
         }
     } */
-
 
     function selectThis(id) {
 		//Off to a fine start, could search the DOM Element and do a .each function on the divs inside, or just hide all of that class...

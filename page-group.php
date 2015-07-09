@@ -30,7 +30,8 @@
                                     </div>
 
 				        <div class="ifa-map">
-			<a id="rutherford-wilkinson"  onclick="selectThis('rutherford-wilkinson')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/rw.jpg" class="bullet preview">Rutherford Wilkinson</a>
+			<a id="rutherford-wilkinson"  onclick="selectThis('rutherford-wilkinson')" href="javascript:void(0);" class="bullet preview">Rutherford Wilkinson
+                <p><img src="<?php bloginfo ('template_url'); ?>/images/ifa-logos/rw.jpg"></p></a>
 			<a id="harrogate-independent"  onclick="selectThis('harrogate-independent')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/harrogate.gif" class="bullet preview">Harrogate Independent Financial Services</a>
 			<a id="multiplex"  onclick="selectThis('multiplex')"href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/multiplex.jpg" class="bullet preview">Multiplex</a>
 			<a id="perspective-group" onclick="selectThis('perspective-group')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/pfgl.jpg" class="bullet preview">Perspective Group</a>
