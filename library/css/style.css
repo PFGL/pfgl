@@ -1481,6 +1481,8 @@ and more scalable.
       padding: 0.75em;
       text-align: center;
       background-color: #d31145;
+      width: 50%;
+      float: left;
       /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
