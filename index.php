@@ -17,7 +17,7 @@
                 <header class="article-header post-header">
 
                     <div class="date">
-						<span class="day"><?php the_time('d') ?> </span><br>
+						<span class="day"><?php the_time('d') ?> </span>
 						<span class="month"><?php the_time('M'); ?></span>
 					</div><!--date-->
 
