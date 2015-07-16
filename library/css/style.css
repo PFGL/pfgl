@@ -1700,7 +1700,8 @@ POSTS & CONTENT STYLES
 .byline {
   color: #9fa6b4;
   font-style: italic;
-  margin: 0; }
+  margin: 0;
+  font-size: 0.75em; }
 
 /* entry content */
 .entry-content {
