@@ -1721,6 +1721,13 @@ POSTS & CONTENT STYLES
   font-family: "Century Gothic",Helvetica,sans-serif;
   float: left; }
 
+.sub-links div h3 {
+  background: #d31145 url(images/titlebg.png) no-repeat left top;
+  color: #fff;
+  padding: 0 0 0 10px;
+  font-weight: normal;
+  text-transform: uppercase; }
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
