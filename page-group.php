@@ -44,13 +44,13 @@
 			<a id="chessman-partners" onclick="selectThis('chessman-partners')"  href="javascript:void(0);" class="bullet preview">Chessman &amp; Partners Ltd</a>
 			<a id="pims" onclick="selectThis('pims')"  href="javascript:void(0);" class="bullet preview">Professional Investment Management Services (Maidstone) Ltd</a>
 			<a id="platinum-portfolios" onclick="selectThis('platinum-portfolios')"  href="javascript:void(0);" class="bullet preview">Platinum Portfolios</a>
-			<a id="equilibrium" onclick="selectThis('equilibrium')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/equilibrium.jpg" class="bullet preview">Equilibrium Wealth Management Limited</a>
-			<a id="leedham" onclick="selectThis('leedham')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/leedham.jpg" class="bullet preview">Leedham Independent Financial Advisers Limited</a>
-			<a id="austyn-james" onclick="selectThis('austyn-james')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/austyn.jpg" class="bullet preview">Austyn James Consulting Limited</a>
-			<a id="mcgrath-rathbone" onclick="selectThis('mcgrath-rathbone')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/mcgrath_rathbone.jpg" class="bullet preview">McGrath Rathbone Limited</a>
-			<a id="shirebrook" onclick="selectThis('shirebrook')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/shirebrook.jpg" class="bullet preview">Shirebrook Wealth Management Limited</a>
-			<a id="ad-valorem" onclick="selectThis('ad-valorem')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/ad-valorem.jpg" class="bullet preview">Ad Valorem Wealth Management Solutions Limited</a>
-			<a id="keypi" onclick="selectThis('keypi')" href="<?php bloginfo ('template_url'); ?>/images/ifa-logos/keypi.jpg" class="bullet preview">Key Pensions &amp; Investments Limited</a>
+			<a id="equilibrium" onclick="selectThis('equilibrium')" href="javascript:void(0);" class="bullet preview">Equilibrium Wealth Management Limited</a>
+			<a id="leedham" onclick="selectThis('leedham')" href="javascript:void(0);" class="bullet preview">Leedham Independent Financial Advisers Limited</a>
+			<a id="austyn-james" onclick="selectThis('austyn-james')" href="javascript:void(0);" class="bullet preview">Austyn James Consulting Limited</a>
+			<a id="mcgrath-rathbone" onclick="selectThis('mcgrath-rathbone')" href="javascript:void(0);" class="bullet preview">McGrath Rathbone Limited</a>
+			<a id="shirebrook" onclick="selectThis('shirebrook')" href="javascript:void(0);" class="bullet preview">Shirebrook Wealth Management Limited</a>
+			<a id="ad-valorem" onclick="selectThis('ad-valorem')" href="javascript:void(0);" class="bullet preview">Ad Valorem Wealth Management Solutions Limited</a>
+			<a id="keypi" onclick="selectThis('keypi')" href="javascript:void(0);" class="bullet preview">Key Pensions &amp; Investments Limited</a>
 			<!--<a id="financial-connection" href="<?php //bloginfo ('template_url'); ?>/images/ifa-logos/financial-connection.jpg" class="bullet preview">Financial Connection Wealth Management Limited</a>-->
 		</div><!--ifa-map-->
 								</div>
