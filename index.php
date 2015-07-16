@@ -6,7 +6,9 @@
 
             <div class="main" role="main">
 
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <div class="posts">
+
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -53,6 +55,11 @@
                     <?php get_template_part ('partials/no-post-found');?>
 
                 <?php endif; ?>
+
+
+                </div>
+
+                <?php get_sidebar ('news');?>
 
             </div>
 
