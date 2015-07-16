@@ -6,6 +6,8 @@
 
             <div class="main" role="main">
 
+                <h1 class="page-title">Latest News</h1>
+
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
@@ -13,8 +15,8 @@
                     <header class="article-header">
 
                         <h1 class="entry-title single-title" itemprop="headline">
-                            <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-                      </h1>
+                           <?php the_title(); ?>
+                        </h1>
 
                     </header> <?php // end article header ?>
 

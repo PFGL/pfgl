@@ -1668,6 +1668,9 @@ POSTS & CONTENT STYLES
 .entry-title {
   margin: 0; }
 
+.single-title {
+  font-size: 1em; }
+
 .page-title {
   background: #d31145 url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/titlebg.png) no-repeat left top;
   color: #fff;
