@@ -795,6 +795,12 @@ Stylesheet: Layout Stylesheet
       width: 98%;
       margin: 1%; } }
 
+.sub-link {
+  float: left;
+  width: 31.33333%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
 .sidebar {
   float: left;
   width: 23%;
@@ -1444,32 +1450,6 @@ select {
 .map-logo {
   border: 2px solid #404040;
   display: none; }
-
-.sub-links {
-  overflow: hidden; }
-
-.sub-links.bottom {
-  margin-top: 50px; }
-
-.sub-link {
-  float: left;
-  width: 220px;
-  margin: 0 0 20px 30px; }
-
-.sub-link.first {
-  margin-left: 0;
-  clear: both; }
-
-.sub-links div h3 {
-  background: #d31145 url(images/titlebg.png) no-repeat left top;
-  line-height: 30px;
-  color: #fff;
-  padding: 0 0 0 10px;
-  font-weight: normal;
-  text-transform: uppercase; }
-
-.sub-links a.more {
-  text-transform: uppercase; }
 
 /*********************
 BASE (MOBILE) SIZE
