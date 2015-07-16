@@ -767,6 +767,34 @@ Stylesheet: Layout Stylesheet
       width: 98%;
       margin: 1%; } }
 
+.posts {
+  float: left;
+  width: 81.33333%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    .posts {
+      width: 98%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    .posts {
+      width: 98%;
+      margin: 1%; } }
+
+#sidebar-news {
+  float: left;
+  width: 14.66667%;
+  margin-left: 1%;
+  margin-right: 1%; }
+  @media only screen and (max-width: 767px) {
+    #sidebar-news {
+      width: 98%;
+      margin: 1%; } }
+  @media only screen and (max-width: 480px) {
+    #sidebar-news {
+      width: 98%;
+      margin: 1%; } }
+
 .sidebar {
   float: left;
   width: 23%;
