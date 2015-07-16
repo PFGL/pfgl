@@ -6,6 +6,8 @@
 
             <div class="main" role="main">
 
+                <h1 class="page-title">Perspective News</h1>
+
                 <div class="posts">
 
                     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

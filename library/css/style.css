@@ -769,7 +769,7 @@ Stylesheet: Layout Stylesheet
 
 .posts {
   float: left;
-  width: 81.33333%;
+  width: 73%;
   margin-left: 1%;
   margin-right: 1%; }
   @media only screen and (max-width: 767px) {
@@ -783,7 +783,7 @@ Stylesheet: Layout Stylesheet
 
 #sidebar-news {
   float: left;
-  width: 14.66667%;
+  width: 23%;
   margin-left: 1%;
   margin-right: 1%; }
   @media only screen and (max-width: 767px) {
