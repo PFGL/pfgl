@@ -6,7 +6,9 @@
 
             <div class="main" role="main">
 
-                <h1 class="page-title cf">Latest News</h1>
+                <div class="container">
+                    <h1 class="page-title">Latest News</h1>
+                </div>
 
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
