@@ -14,7 +14,7 @@
 
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
-                <header class="article-header">
+                <header class="article-header post-header">
 
                     <div class="date">
 						<span class="day"><?php the_time('d') ?> </span>
