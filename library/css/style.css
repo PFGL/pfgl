@@ -1724,8 +1724,8 @@ POSTS & CONTENT STYLES
 .sub-link {
   margin-top: 0; }
 
-.sub-links div h3 {
-  background: #d31145 url(images/titlebg.png) no-repeat left top;
+.sub-links h3 {
+  background: #d31145 url(http://www.pfgl.co.uk/development/wp-content/themes/pfgl/library/images/titlebg.png) no-repeat left top;
   color: #fff;
   padding: 0 0 0 10px;
   font-weight: normal;
@@ -1735,7 +1735,8 @@ POSTS & CONTENT STYLES
   display: block;
   width: 220px;
   height: 130px;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0 auto; }
 
 .banner img {
   overflow: hidden; }
