@@ -1731,6 +1731,15 @@ POSTS & CONTENT STYLES
   font-weight: normal;
   text-transform: uppercase; }
 
+.banner {
+  display: block;
+  width: 220px;
+  height: 130px;
+  overflow: hidden; }
+
+.banner img {
+  overflow: hidden; }
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */

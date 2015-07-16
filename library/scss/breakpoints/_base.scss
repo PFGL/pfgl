@@ -366,6 +366,18 @@ POSTS & CONTENT STYLES
     text-transform: uppercase;
 }
 
+.banner{
+	display:block;
+	width:220px;
+	height:130px;
+	overflow:hidden;
+}
+
+.banner img{
+	overflow:hidden;
+}
+
+
 		.entry-title {}
 
 		.archive-title {}
