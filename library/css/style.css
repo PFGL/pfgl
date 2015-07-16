@@ -1741,6 +1741,17 @@ POSTS & CONTENT STYLES
 .banner img {
   overflow: hidden; }
 
+.date {
+  color: #fff; }
+
+.day {
+  background-color: #d73662;
+  padding: 0 1em; }
+
+.month {
+  background-color: #d01347;
+  padding: 0 1em; }
+
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
