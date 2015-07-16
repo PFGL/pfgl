@@ -18,7 +18,7 @@
 
                         <h1 class="entry-title single-title" itemprop="headline">
                            <?php the_title(); ?>
-                            <p class="post-meta">This entry was posted on <?php the_time('l, F jS, Y') ?></p>
+                            <p class="bylines">This entry was posted on <?php the_time('l, F jS, Y') ?></p>
                         </h1>
 
                     </header> <?php // end article header ?>
