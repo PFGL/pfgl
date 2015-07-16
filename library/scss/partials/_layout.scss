@@ -68,7 +68,7 @@ Stylesheet: Layout Stylesheet
     @include break(mobile, 12);
 }
 #sidebar-news {
-    @include grid(3, $margin:0);
+    @include grid(3);
     @include break(tablet, 12);
     @include break(mobile, 12);
 }
