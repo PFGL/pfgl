@@ -176,4 +176,22 @@ jQuery(document).ready(function ($) {
             $(this).children('.map-logo').fadeOut(200);
         }
     );
+
+
+	// animate banner images
+	$('.banner').hover(function () {
+		var thumbOver = $(this).find('img').attr('src'); // Get image url and assign it to 'thumbOver'
+
+		//Set a background image(thumbOver) on the <a> tag - Set position to bottom
+		$(this).css({'background' : 'url(' + thumbOver + ') no-repeat center bottom'});
+
+		//Animate the image to 0 opacity (fade it out)
+		$(this).find('img').stop().fadeTo('normal', 0, function () {
+			$(this).hide(); //Hide the image after fade
+		});
+	}, function () { //on hover out...
+		//Fade the image to full opacity
+		$(this).find('img').stop().fadeTo('normal', 1).show();
+	});
+
 }); /* end of as page load scripts */
