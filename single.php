@@ -18,9 +18,9 @@
 
                         <h1 class="entry-title single-title" itemprop="headline">
                            <?php the_title(); ?>
-                            <p class="byline">This entry was posted on <?php the_time('l, F jS, Y') ?></p>
-                        </h1>
 
+                        </h1>
+<p class="byline">This entry was posted on <?php the_time('l, F jS, Y') ?></p>
                     </header> <?php // end article header ?>
 
                     <div class="entry-content" itemprop="articleBody">
