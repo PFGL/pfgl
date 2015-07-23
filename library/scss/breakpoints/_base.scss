@@ -356,6 +356,10 @@ POSTS & CONTENT STYLES
 
 .sub-link {
     margin-top: 0;
+
+    p {
+        max-width:220px;
+    }
 }
 
 .sub-link:nth-of-type(3n+1) {
@@ -368,6 +372,7 @@ POSTS & CONTENT STYLES
     padding: 0 0 0 10px;
     font-weight: normal;
     text-transform: uppercase;
+    max-width:220px;
 }
 
 .banner{
