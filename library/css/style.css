@@ -1724,7 +1724,9 @@ POSTS & CONTENT STYLES
 .sub-link {
   margin-top: 0; }
   .sub-link p {
-    max-width: 220px; }
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto; }
 
 .sub-link:nth-of-type(3n+1) {
   clear: both; }
@@ -1735,7 +1737,9 @@ POSTS & CONTENT STYLES
   padding: 0 0 0 10px;
   font-weight: normal;
   text-transform: uppercase;
-  max-width: 220px; }
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .banner {
   display: block;
