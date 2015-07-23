@@ -1735,7 +1735,7 @@ POSTS & CONTENT STYLES
   text-transform: uppercase; }
 
 .banner {
-  display: block;
+  display: none;
   width: 220px;
   height: 130px;
   overflow: hidden;
