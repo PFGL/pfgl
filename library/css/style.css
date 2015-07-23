@@ -1740,9 +1740,8 @@ POSTS & CONTENT STYLES
   height: 130px;
   overflow: hidden;
   margin: 0 auto; }
-
-.banner img {
-  overflow: hidden; }
+  .banner img {
+    overflow: hidden; }
 
 .date {
   color: #fff; }
