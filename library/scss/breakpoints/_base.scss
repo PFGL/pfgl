@@ -368,8 +368,9 @@ POSTS & CONTENT STYLES
 
 .banner{
 	display:block;
-	width:220px;
-	height:130px;
+	width:300px;
+	height:auto;
+    max-width:100%;
 	overflow:hidden;
     margin: 0 auto;
 }
