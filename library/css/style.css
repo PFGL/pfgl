@@ -1724,7 +1724,7 @@ POSTS & CONTENT STYLES
 .sub-link {
   margin-top: 0; }
 
-.sub-link:nth-of-type(3n) {
+.sub-link:nth-of-type(3n+1) {
   clear: both; }
 
 .sub-links h3 {
