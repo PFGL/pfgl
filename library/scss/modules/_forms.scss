@@ -51,7 +51,7 @@ textarea,
   border: 0;
   width: 100%;
   font-family: $lato;
-  background-color: $light-gray;
+  background-color: #B9B8B8;
   @include transition(background-color 0.24s ease-in-out);
 
   // a focused input (or hovered on)
