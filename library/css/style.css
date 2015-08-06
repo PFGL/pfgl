@@ -2114,7 +2114,7 @@ COMMENT STYLES
       border-right: 0; }
   .comment_content blockquote {
     padding: 0 0 0 0.75em;
-    border-left: 3px solid #2980b9;
+    border-left: 3px solid #D31145;
     font-style: italic;
     color: #9fa6b4; }
   .comment_content dd {
