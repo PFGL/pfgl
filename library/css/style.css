@@ -1310,8 +1310,7 @@ select {
   clear: both;
   float: left;
   width: 400px;
-  display: inline;
-  margin-top: 25px; }
+  display: inline; }
 
 .ifa-map {
   float: right;
