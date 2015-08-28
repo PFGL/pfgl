@@ -1,43 +1,43 @@
 <?php get_header(); ?>
 
-			<div id="content">
+    <div id="content" class="wrapper">
 
-				<div id="inner-content" class="wrap cf">
+        <div id="inner-content" class="container">
 
-					<div id="main"  role="main">
+            <main id="main"  role="main">
 
-						<article id="post-not-found" class="hentry cf">
+                <article id="post-not-found" class="hentry cf">
 
-							<header class="article-header">
+                    <header class="article-header">
 
-								<h1><?php _e( '404 - Page Not Found', 'bonestheme' ); ?></h1>
+                        <h1><?php _e( '404 - Page Not Found', 'bonestheme' ); ?></h1>
 
-							</header>
+                    </header>
 
-							<section class="entry-content">
+                    <div class="entry-content">
 
-								<p><?php _e( 'The page you were looking for was not found, but maybe try looking again!', 'bonestheme' ); ?></p>
+                        <p><?php _e( 'The page you were looking for was not found, but maybe try looking again!', 'bonestheme' ); ?></p>
 
-							</section>
+                    </div>
 
-							<section class="search">
+                    <section class="search">
 
-									<p><?php get_search_form(); ?></p>
+                        <p><?php get_search_form(); ?></p>
 
-							</section>
+                    </section>
 
-							<footer class="article-footer">
+                    <footer class="article-footer">
 
-									<p><?php _e( 'This is the 404.php template.', 'bonestheme' ); ?></p>
+                        <p><?php _e( 'This is the 404.php template.', 'bonestheme' ); ?></p>
 
-							</footer>
+                    </footer>
 
-						</article>
+                </article>
 
-					</div>
+            </main>
 
-				</div>
+        </div>
 
-			</div>
+    </div>
 
 <?php get_footer(); ?>
