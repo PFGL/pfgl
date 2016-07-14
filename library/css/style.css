@@ -2283,6 +2283,8 @@ SIDEBARS & ASIDES
     font-weight: bold;
     color: #fff;
     font-size: 1.1em; }
+  .tab a:visited {
+    color: #000; }
 
 .tab-title {
   font-size: 1.7em;
