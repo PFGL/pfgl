@@ -76,6 +76,7 @@ Stylesheet: Layout Stylesheet
 
         .sub-link {
             @include grid(4);
+            @include break(mobile, 12);
         }
        .sidebar {
         @include grid(3);

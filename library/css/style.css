@@ -799,6 +799,10 @@ Stylesheet: Layout Stylesheet
   width: 31.33333%;
   margin-left: 1%;
   margin-right: 1%; }
+  @media only screen and (max-width: 480px) {
+    .sub-link {
+      width: 98%;
+      margin: 1%; } }
 
 .sidebar {
   float: left;
