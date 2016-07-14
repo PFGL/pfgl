@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Group
+ Template Name: Group New
 */
 ?>
 
