@@ -12,7 +12,8 @@
     display: inline;
     position: relative;
     margin: 25px 0 50px 0;
-    background: url(/wp-content/themes/pfgl/library/images/map.jpg) no-repeat;
+    background: url(/wp-content/themes/pcs/library/images/map-1.png) no-repeat;
+    background-size: cover;
 
 
     .bullet {
@@ -36,35 +37,251 @@
 
 	/* IFA Locations */
 	#rutherford-wilkinson {
-        top: 181px;
-        left: 270px;
+        top: 230px;
+        left: 320px;
     }
-	#harrogate-independent {top: 249px; left: 290px; }
-	#multiplex {top: 307px; left: 275px;}
-	#ad-valorem {top: 322px; left: 295px;}
-	#perspective-group {top: 302px; left: 295px;}
-	#warnes-anderton {top: 285px; left:330px;}
-	#mcgregors {top: 304px; left: 358px;}
-	#mcgregors2 {top: 323px; left: 338px;}
-	#mcgregors3 {top: 336px; left: 343px; }
-	#mcgregors4 {top: 358px; left: 284px; }
-	#applewood1 {top: 320px; left: 270px;}
-	#applewood2 {top: 333px; left: 275px;}
-	#cambridge-investments {top: 340px; left: 380px; }
-	#wingham-wyatt {top: 366px; left: 402px; }
-	#perspective-financial {top: 374px; left: 341px;}
-	#chambers-co {top: 381px; left: 396px;}
-	#chessman-partners {top: 387px; left: 357px; }
-	#austyn-james {top: 405px; left: 357px; }
-	#mcgrath-rathbone {top: 387px; left: 343px; }
-	#charles-reynolds-associates {top: 392px; left: 373px;}
-	#pims {top: 406px; left: 420px; }
-	#platinum-portfolios {top: 429px; left: 415px;}
-	#equilibrium {top: 405px; left: 325px;}
-	#keypi {top: 420px; left: 313px;}
-	#leedham {top: 290px; left: 274px;}
-	#shirebrook {top: 280px; left: 290px;}
-	#financial-connection {top: 400px; left: 395px; }
+
+    #rutherford-wilkinson:hover {
+        #map-logo-rutherford {
+            display:block;
+            max-width:100px;
+        }
+    }
+
+    #harrogate-independent {
+        top: 295px;
+        left: 331px;
+    }
+
+    #harrogate-independent:hover {
+        #map-logo-harrogate {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #multiplex {
+        top: 307px;
+        left: 305px;
+    }
+
+    #multiplex:hover {
+        #map-logo-multiplex {
+            display:block;
+            max-width:150px;
+            z-index: 1;
+        }
+    }
+
+    #ad-valorem {
+        top: 348px;
+        left: 301px;
+    }
+
+    #ad-valorem:hover {
+        #map-logo-ad {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #perspective-group {
+        top: 325px;
+        left: 300px;
+    }
+
+   #perspective-group:hover {
+        #map-logo-group {
+            display:block;
+            max-width:150px;
+             z-index: 1;
+        }
+    }
+
+    #warnes-anderton {
+        top: 320px;
+        left: 340px;
+    }
+
+    #warnes-anderton:hover {
+        #map-logo-warnes {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #applewood1 {
+        top: 345px;
+        left: 275px;
+    }
+
+    #applewood1:hover {
+        #map-logo-apple-1{
+            display:block;
+            max-width:100px;
+            z-index: 1;
+        }
+    }
+
+    #applewood2 {
+        top: 365px;
+        left: 260px;
+    }
+
+    #applewood2:hover {
+        #map-logo-apple-2{
+            display:block;
+            max-width:100px;
+             z-index: 1;
+        }
+    }
+
+    #cambridge-investments {
+        top: 375px;
+        left: 350px
+    }
+
+      #cambridge-investments:hover {
+        #map-logo-cambridge {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #wingham-wyatt {
+        top: 400px;
+        left: 368px;
+    }
+
+    #wingham-wyatt:hover {
+        #map-logo-wingham {
+            display:block;
+            max-width:100px;
+        }
+    }
+
+    #perspective-financial {
+        top: 385px;
+        left: 315px;
+    }
+
+    #perspective-financial:hover {
+        #map-logo-pfm {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #chessman-partners {
+        top: 397px;
+        left: 322px;
+    }
+
+    #chessman-partners:hover {
+        #map-logo-chess {
+            display:block;
+            max-width:150px;
+             z-index: 1;
+        }
+    }
+
+    #austyn-james {
+        top: 420px;
+        left: 310px;
+    }
+
+    #austyn-james:hover {
+        #map-logo-aj {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #mcgrath-rathbone {
+        top: 400px;
+        left: 300px;
+    }
+
+    #mcgrath-rathbone:hover {
+        #map-logo-mrifa {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #pims {
+        top: 441px;
+        left: 368px;
+    }
+
+
+    #pims:hover {
+        #map-logo-pims {
+            display:block;
+            max-width:150px;
+            z-index:1;
+        }
+    }
+
+    #platinum-portfolios {
+        top: 460px;
+        left: 350px;
+    }
+
+    #platinum-portfolios:hover {
+        #map-logo-platinum {
+            display:block;
+            max-width:100px;
+        }
+    }
+
+    #equilibrium {
+        top: 430px;
+        left: 280px;
+    }
+
+     #equilibrium:hover {
+        #map-logo-equi {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #keypi {
+        top: 445px;
+        left: 255px;
+    }
+
+     #keypi:hover {
+        #map-logo-key {
+            display:block;
+            max-width:200px;
+        }
+    }
+
+    #leedham {
+        top: 291px;
+        left: 289px;
+    }
+
+    #leedham:hover {
+        #map-logo-leedham {
+            display:block;
+            max-width:150px;
+        }
+    }
+
+    #shirebrook {
+        top: 284px;
+        left: 294px;
+    }
+
+    #shirebrook:hover {
+        #map-logo-shirebrook {
+            display:block;
+            max-width:150px;
+        }
+    }
 
 /* IFA Details */
 
@@ -79,4 +296,10 @@
 .map-logo {
     border: 2px solid #404040;
     display: none;
+    position: relative;
+    left: 24px;
+    top: -33px;
+    transition-timing-function: linear;
+    padding:.25em;
+    background-color:#fff;
 }
