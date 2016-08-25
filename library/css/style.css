@@ -2312,6 +2312,16 @@ SIDEBARS & ASIDES
     font-size: .75em; }
   #sidebar-contact a {
     color: #fff; }
+  #sidebar-contact #contact-details {
+    font-weight: bold;
+    list-style: none;
+    font-size: 12px; }
+    #sidebar-contact #contact-details #telephone {
+      padding-left: 35px;
+      background: url(http://www.pfgl.co.uk/wp-content/themes/pfgl/library/images/icontelephone.png) no-repeat 0 50%; }
+    #sidebar-contact #contact-details #email {
+      padding-left: 35px;
+      background: url(http://www.pfgl.co.uk/wp-content/themes/pfgl/library/images/iconemail.png) no-repeat 0 50%; }
 
 #sidebar-legal {
   background-color: #898989;
